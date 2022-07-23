@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>StackDeck</title>
+    <meta name="description"
+          content="StackDeck is a blazing fast api "/>
+    <link href="/static/bootstrap.css" rel="stylesheet">
+    <link id="favicon" rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+</head>
+<body>
+<!--navigation-->
+{% include 'navbar.html' %}
+{% block content %}
+{% endblock %}
+
+    <section class="py-6" id="not-found">
+            <div class="row">
+                <div class="col-md-4 mx-auto text-center">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h3 class="card-title">Page Not Found</h3>
+                        </div>
+                        <div class="card-body">
+                            <img src="/static/images/not-found-800-800.png" alt="Not Found" width="100%">
+                            <p class="text"><br>
+                            </p>
+                            <a href="/" class="btn btn-success">Try Again</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <br>
+        <br>
+    </section>
+<!--footer-->
+{% include 'footer.html' %}
+{% block footer %}
+{% endblock %}

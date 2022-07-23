@@ -1,0 +1,1785 @@
+{
+    "bo0w36LV01": {
+        "name": "Monty Python",
+        "location": [
+            "Camelot"
+        ],
+        "stack": [
+            "Graham Chapman",
+            "Holly Hand Grenade",
+            "John Cleese"
+        ],
+        "flavor": "You've got two empty halves of coconuts and your bangin' 'em together.",
+        "website": "https://en.wikipedia.org/wiki/Monty_Python",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "ONpgXtPBh0": {
+        "name": "Remedy Entertainment",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "C++",
+            "Csharp",
+            "Docker",
+            "Go",
+            "Kubernetes",
+            "Python"
+        ],
+        "flavor": "The gaming company behind the games like Control, Alan Wake and Max Payne",
+        "website": "https://www.remedygames.com/",
+        "alt_link": "",
+        "tags": [],
+        "premium": false
+    },
+    "Fqri1IVBNv": {
+        "name": "Holvi",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Angular",
+            "Django",
+            "Docker",
+            "JavaScript",
+            "PostgreSQL",
+            "Python",
+            "Vue.js"
+        ],
+        "flavor": "Digital financial management services for freelancers and small businesses. A nice workplace with a low hierarchy and a multinational team.",
+        "website": "https://www.holvi.com/fi-en/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "ryQjOuOMrc": {
+        "name": "Meru Health",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "JavaScript",
+            "Node.js",
+            "PostgreSQL",
+            "React",
+            "React Native",
+            "Webpack"
+        ],
+        "flavor": "Meru aims to create a completely new form of treatment for mental health problems, which enables quick access to treatment and better treatment results.",
+        "website": "https://www.meruhealth.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "2ymWnDbXqa": {
+        "name": "UpCloud",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "CSS3",
+            "Go",
+            "HTML5",
+            "Linux",
+            "Next.js",
+            "PostgreSQL",
+            "Python",
+            "React",
+            "TypeScript"
+        ],
+        "flavor": "A fast-growing product company providing cloud services on an \u201cinfrastructure-as-a-service\u201d basis.",
+        "website": "https://upcloud.com/",
+        "tags": [
+            "Premium",
+            "Hiring"
+        ],
+        "alt_link": "https://upcloud.com/careers/#open-positions",
+        "premium": true
+    },
+    "8J6S2mJdiQ": {
+        "name": "Mavericks",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            ".NET",
+            "Amazon Aws",
+            "Android",
+            "Ansible",
+            "JavaScript",
+            "Jenkins",
+            "Kotlin",
+            "Microsoft Azure",
+            "NoSQl",
+            "Puppet",
+            "Python",
+            "React",
+            "Swift",
+            "Tekton",
+            "Terraform",
+            "TypeScript",
+            "flutter",
+            "iOS"
+        ],
+        "flavor": "A consulting company that combines the best parts of consulting and entrepreneurship.",
+        "website": "https://mavericks.fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "k9sEeMGzSV": {
+        "name": "Varjo",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "C",
+            "C++",
+            "DynamoDB",
+            "Javascript",
+            "Linux",
+            "Node.js",
+            "Python",
+            "React",
+            "TypeScript"
+        ],
+        "flavor": "Varjo develops VR and XR technology s in Finland. Their human eye resolution virtual headsets are designed for professional use in various industries.",
+        "website": "https://varjo.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "Z9jUNAARRX": {
+        "name": "SOK",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Apollo",
+            "Docker",
+            "Elastic Search",
+            "GraphQL",
+            "Node.js",
+            "React",
+            "Serverless",
+            "Terraform",
+            "TypeScript",
+            "TypeScript"
+        ],
+        "flavor": "S Group is a customer-owned Finnish network of companies in the retail and service sectors, with a large network of outlets in Finland.",
+        "website": "https://s-ryhma.fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "92A5b0QFPu": {
+        "name": "Elisa",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Apache Kafka",
+            "Apache Spark",
+            "Docker",
+            "Go",
+            "Java",
+            "Kubernetes",
+            "MariaDB",
+            "MySQL",
+            "PostgreSQL",
+            "Python",
+            "R",
+            "SQL"
+        ],
+        "flavor": "Elisa is a Finnish telecommunications company founded in 1882. Elisa offers fixed and mobile subscriptions and broadband subscriptions.",
+        "website": "https://elisa.fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "NODyF1s47x": {
+        "name": "Tomorrow Tech",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Clojure",
+            "Java",
+            "Kotlin",
+            "Kubernetes",
+            "Microsoft Azure",
+            "Scala"
+        ],
+        "flavor": "A company that builds digital products for the residential real estate market based on distributed ledger technology.",
+        "website": "https://tomorrow.fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "p7JlMRO8E4": {
+        "name": "Reaktor",
+        "location": [
+            "Finland",
+            "USA",
+            "Japan",
+            "Netherlands",
+            "Sweden"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Amazon Aws",
+            "Clojure",
+            "Flutter",
+            "GraphQL",
+            "Java",
+            "JavaScript",
+            "Kotlin",
+            "Microsoft Azure",
+            "Node.js",
+            "Python",
+            "React",
+            "SQL",
+            "Scala",
+            "TypeScript"
+        ],
+        "flavor": "Reaktor is a technology company, specialized in design and development of digital services and products.",
+        "website": "https://www.reaktor.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "rEyrG3eds9": {
+        "name": "Droppe",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "CircleCI",
+            "Docker",
+            "GraphQL",
+            "Next.js",
+            "PostgreSQL",
+            "React",
+            "TypeScript"
+        ],
+        "flavor": "One-stop shop for all your wholesale.",
+        "website": "https://droppe.fi/osta/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "Dn8jMy49WX": {
+        "name": "Fingersoft",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Bash",
+            "C++",
+            "Java",
+            "Linux",
+            "NoSQL",
+            "Objective",
+            "Python",
+            "Unity"
+        ],
+        "flavor": "Fingersoft is a Finnish video game developer based in Oulu. Fingersoft is one of the most northern game studios in the world.",
+        "website": "https://fingersoft.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "sk8hqxLEEk": {
+        "name": "Kisko Labs",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Fargate",
+            "Docker",
+            "GraphQL",
+            "Heroku",
+            "PostgreSQL",
+            "REST",
+            "React",
+            "Redux",
+            "Ruby",
+            "Ruby on Rails"
+        ],
+        "flavor": "Kisko Labs is a software company established in 2007. Their mission is to help businesses operate in a digital world.",
+        "website": "https://www.kiskolabs.com/en/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "lSntYQfYQB": {
+        "name": "Sievo",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            ".NET",
+            "Csharp",
+            "Databricks",
+            "JavaScript",
+            "Microsoft Azure",
+            "Powershell",
+            "React",
+            "Redux",
+            "SQL",
+            "Terraform"
+        ],
+        "flavor": "Procurement analytics software company.",
+        "website": "https://sievo.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "die6uDM7ie": {
+        "name": "Telia",
+        "location": [
+            "Finland",
+            "Sweden",
+            "Norway",
+            "Denmark",
+            "Lithuania",
+            "Latvia",
+            "Estonia"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Amazon DynamoDB",
+            "Apache Spark",
+            "Docker",
+            "GraphQL",
+            "Java",
+            "JavaScript",
+            "MS SQL",
+            "Node.js",
+            "PostgreSQL",
+            "Python",
+            "R",
+            "React",
+            "React Native",
+            "SQL",
+            "Scala",
+            "Terraform",
+            "TypeScript"
+        ],
+        "flavor": "Telia Company AB is a Swedish multinational telecommunications company and mobile network operator.",
+        "website": "https://www.teliacompany.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "Lv7eZzrHFh": {
+        "name": "Silo.ai",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Angular",
+            "Docker",
+            "Docker",
+            "Flask",
+            "Java",
+            "Jenkins",
+            "Jupyter",
+            "Kubernetes",
+            "Meteor",
+            "MongoDB",
+            "Node.js",
+            "Python",
+            "Scikit-learn"
+        ],
+        "flavor": "The company wants to democratize AI and create new business opportunities with it.",
+        "website": "https://silo.ai/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "3HEVtt6z5v": {
+        "name": "Aava",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "JavaScript",
+            "Node.js",
+            "PostgreSQL",
+            "React",
+            "SQL",
+            "TypeScript"
+        ],
+        "flavor": "A growing and developing company that reforms healthcare and preventive occupational health care.",
+        "website": "https://www.aava.fi/en/frontpage/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "pYEHLu4IkD": {
+        "name": "Wolt",
+        "location": [
+            "Germany",
+            "Finland",
+            "Georgia",
+            "Greece",
+            "Lithuania",
+            "Poland",
+            "Estonia",
+            "Israel",
+            "Denmark",
+            "Sweden",
+            "Japan",
+            "Hungary",
+            "Malta",
+            "Slovenia",
+            "Serbia",
+            "Croatia"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Apache Kafka",
+            "Celery",
+            "Docker",
+            "Jenkins",
+            "Kotlin",
+            "Kubernetes",
+            "MongoDB",
+            "PostgreSQL",
+            "Python",
+            "React Native",
+            "Redis",
+            "Scala",
+            "TypeScript"
+        ],
+        "flavor": "A Finnish growth rocket that offers restaurant food delivery services in more than 20 countries.",
+        "website": "https://wolt.com/en",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "xKsVYSNGmS": {
+        "name": "Umbra",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "C++",
+            "Docker",
+            "Java",
+            "Scala"
+        ],
+        "flavor": "Umbra is trying to revolutionize the 3D visualization and graphics rendering industry.",
+        "website": "https://umbra3d.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "RbT2M7JhMp": {
+        "name": "Polar Squad",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Ansible",
+            "CD",
+            "CI",
+            "Docker",
+            "Kubernetes",
+            "Microsoft Azure",
+            "Terraform"
+        ],
+        "flavor": "Polar Squad offers consulting on rapid, scalable and reliable software development practices and cloud environments.",
+        "website": "https://polarsquad.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "m5yfQkZvva": {
+        "name": "Sharper Shape",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "C",
+            "C++",
+            "Docker",
+            "Fiona",
+            "GDAL",
+            "Go",
+            "Go",
+            "Kubernetes",
+            "Python",
+            "Shapely"
+        ],
+        "flavor": "Sharper Shape helps electric network operators improve the reliability and safety of their assets by providing transformative T&D inspection solution .",
+        "website": "https://sharpershape.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "Gy2PPJK5wq": {
+        "name": "Nordea",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Apache Kafka",
+            "Apache Spark",
+            "Bitbucket",
+            "Cypress",
+            "Docker",
+            "GIT",
+            "Hadoop",
+            "Java",
+            "Jenkins",
+            "Kubernetes",
+            "Python",
+            "SQL",
+            "Scala"
+        ],
+        "flavor": "Nordea is harnessing the power of technology to reinvent the future of banking.",
+        "website": "https://www.nordea.fi/en/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "13UluG3d0B": {
+        "name": "Nixu",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Bash",
+            "Docker",
+            "Java",
+            "Javascript",
+            "Jython",
+            "Kubernetes",
+            "Linux",
+            "Microsoft Azure",
+            "Node.js",
+            "Python",
+            "REST",
+            "React",
+            "Robot Framework",
+            "SQL"
+        ],
+        "flavor": "Nixu is a cybersecurity services company on a mission to keep the digital society running.",
+        "website": "https://www.nixu.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "FXg5sooIm6": {
+        "name": "ICEYE",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Apache Airflow",
+            "C",
+            "C++",
+            "Docker",
+            "Hadhoop",
+            "JavaScript",
+            "KubeFlow",
+            "Kubernetes",
+            "PHP",
+            "PostGIS",
+            "Python",
+            "SQL",
+            "Spring IO",
+            "Terraform"
+        ],
+        "flavor": "ICEYE manufactures satellites and provides reliable and up-to-date radar images to its customers.",
+        "website": "https://www.iceye.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "eQaBxBiMgW": {
+        "name": "Solita",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            ".NET",
+            "Amazon Aws",
+            "Clojure",
+            "Csharp",
+            "Episerver",
+            "Java",
+            "JavaScript",
+            "Node.js",
+            "PostgreSQL"
+        ],
+        "flavor": "Solita is a technology, data and design company with excellent work-life balance. This is achieved through culture and a management that understands and supports the challenges of family life.",
+        "website": "https://www.solita.fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "BYcpQqqkVU": {
+        "name": "Valamis",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Apache Kafka",
+            "Java",
+            "JavaScript",
+            "Kotlin",
+            "Microsoft Azure",
+            "Node.js",
+            "React",
+            "Scala"
+        ],
+        "flavor": "Valamis, which has gained international fame and won awards, specializes in the digitalization of learning. They collaborate with numerous famed organizations, including NASA.",
+        "website": "https://www.valamis.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "qEzJUPrFG7": {
+        "name": "New Things Co",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Clojure",
+            "Java8",
+            "JavaScript",
+            "MariaDB",
+            "Node.js",
+            "PostgreSQL",
+            "Ramda",
+            "React",
+            "Redux",
+            "RxJS",
+            "Scala",
+            "Spring Boot",
+            "TypeScript"
+        ],
+        "flavor": "A consulting company with an amazing team spirit. An experienced multinational team that regularly learns new technologies and skills together.",
+        "website": "https://www.newthings.co/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "ToNAfK2U0Q": {
+        "name": "Starship",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Apache Kafka",
+            "Elixir",
+            "Go",
+            "GraphQL",
+            "JavaScript",
+            "Kubernetes",
+            "Node.js",
+            "TypeScript"
+        ],
+        "flavor": "Starship solves the last mile problem of food and package deliveries with a network of autonomous robots. Solid funding and big enthusiasm to scale the business up.",
+        "website": "https://www.starship.xyz/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "VyZuO31xr5": {
+        "name": "Supermetrics",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Google Cloud",
+            "Java",
+            "MySQL",
+            "Node.js",
+            "PHP",
+            "PostgreSQL",
+            "React",
+            "Redis",
+            "SQL",
+            "TypeScript"
+        ],
+        "flavor": "Supermetrics picks up all the marketing data you need and brings it to your go-to reporting, analytics, or storage platform",
+        "website": "https://supermetrics.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "hI9AQed5KO": {
+        "name": "F-Secure",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Android",
+            "C++",
+            "Csharp",
+            "Java",
+            "JavaScript",
+            "Linux",
+            "Objective",
+            "Python",
+            "iOS"
+        ],
+        "flavor": "Finland's best known cyber security company. Consistently ranks as one of most appealing employers in the IT industry.",
+        "website": "https://www.f-secure.com/en",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "XnJDBOI2VZ": {
+        "name": "CHAOS",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Docker",
+            "Google Cloud",
+            "Kubernetes",
+            "PostgreSQL",
+            "Python",
+            "React"
+        ],
+        "flavor": "CHAOS combines urban non-traditional data together with traditional real estate data in one dynamic cloud platform.",
+        "website": "https://chaosarchitects.com/",
+        "tags": [
+            "Premium",
+            "Hiring"
+        ],
+        "alt_link": "https://chaosarchitects.com/",
+        "premium": true
+    },
+    "1V84Xg3C2U": {
+        "name": "Huutokaupat.com",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "GraphQL",
+            "NoSQL",
+            "PHP",
+            "React",
+            "TypeScript"
+        ],
+        "flavor": "Huutokaupat.com is a remote work -friendly company that brings auctions to the general public. Thumbs up for being able to provide opportunities for junior developers too.",
+        "website": "https://huutokaupat.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "bwuciYomul": {
+        "name": "Howspace",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "JavaScript",
+            "MongoDB",
+            "PHP",
+            "Python",
+            "jQuery"
+        ],
+        "flavor": "Howspace builds an AI-based collaboration platform that can be used, for example, to facilitate workshops or participative change management. Remote-first-company.",
+        "website": "https://www.howspace.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "SSh3ZQv4VB": {
+        "name": "Solibri",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Databricks",
+            "Docker",
+            "Go",
+            "Microsoft Azure",
+            "Python",
+            "SQL",
+            "Scala"
+        ],
+        "flavor": "Solibri is providing out-of-the-box tools for construction industry. Their software offerings provide BIM validation, compliance control, design process coordination, design review, analysis and code checking.",
+        "website": "https://www.solibri.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "im4aRkSNxt": {
+        "name": "HiQ",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Android",
+            "Angular",
+            "Java",
+            "Microsoft Azure",
+            "NoSQL",
+            "Node.js",
+            "React",
+            "SQL",
+            "Vue.js",
+            "iOS"
+        ],
+        "flavor": "A versatile consulting company that exudes good vibes. A low hierarchy and extensive employee benefits.",
+        "website": "https://hiq.fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "gARrO8gheg": {
+        "name": "Mobile Pay",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Apache Cassandra",
+            "Csharp",
+            "MSSQL",
+            "MongoDB",
+            "MySQL",
+            "PostgreSQL"
+        ],
+        "flavor": "We empower people across the Nordics to share life through joyful exchanges. We do this by offering them a complete product suite for all their everyday payments.",
+        "website": "https://mobilepaygroup.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "5qTOKCN1pJ": {
+        "name": "Unity",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Apache Kafka",
+            "C",
+            "C++",
+            "Docker",
+            "Go",
+            "Java",
+            "JavaScript",
+            "Kubernetes",
+            "MongoDB",
+            "Node.js",
+            "OpenGL",
+            "Python",
+            "Redis",
+            "Rust",
+            "Scala"
+        ],
+        "flavor": "The world's leading provider of game engines, a product that allows anyone, regardless of skill level and industry, to create eye-catching 3D content. Multinational team, inclusiveness is the cornerstone of culture.",
+        "website": "https://unity.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "C5KuQXzILU": {
+        "name": "Columbia Road",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            ".NET",
+            "Amazon Aws",
+            "Angular",
+            "Csharp",
+            "Go",
+            "J2EE",
+            "Java",
+            "JavaScript",
+            "Microsoft Azure",
+            "PHP",
+            "PostgreSQL",
+            "Python",
+            "React",
+            "Ruby",
+            "SQL",
+            "Scala",
+            "Scala",
+            "Vue.js"
+        ],
+        "flavor": "A consulting company specializing in growth hacking, e-commerce and Salesforce related thingies.",
+        "website": "https://www.columbiaroad.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "jGmcr7r5gW": {
+        "name": "3D Bear",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            ".NET",
+            "Csharp",
+            "Microsoft Azure"
+        ],
+        "flavor": "Virtual learning environments and solutions that take advantage of augmented reality, virtual reality, 3D printing, and 360 imaging and scanning. 3D Bear creates meaningful products, but still has a laid-back work culture.",
+        "website": "https://www.3dbear.io/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "wGVJTapEIJ": {
+        "name": "Zalando",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Apache Airflow",
+            "Apache Cassandra",
+            "Apache Kafka",
+            "Clojure",
+            "Databricks",
+            "Docker",
+            "Go",
+            "GraphQL",
+            "Hadoop",
+            "Java",
+            "JavaScript",
+            "Kubernetes",
+            "Nginx",
+            "PostgreSQL",
+            "Python",
+            "Scala",
+            "Swift",
+            "TypeScript"
+        ],
+        "flavor": "An e-commerce giant that is one of the best places to do e-commerce globally.",
+        "website": "https://www.zalando.fi/",
+        "tags": [
+            "Premium",
+            "Hiring"
+        ],
+        "alt_link": "https://jobs.zalando.com/en/jobs/?gh_src=gk03hq",
+        "premium": true
+    },
+    "hURMsOw0pa": {
+        "name": "Vincit",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            ".NET",
+            "Amazon Aws",
+            "Angular",
+            "C",
+            "C++",
+            "Clojure",
+            "Csharp",
+            "Java",
+            "Kotlin",
+            "Microsoft Azure",
+            "Node.js",
+            "Python",
+            "React",
+            "Vue.js"
+        ],
+        "flavor": "A large consulting firm that is listed as one of the best companies to work for consistently. Continuous development and self-directing work is how Vincit rolls.",
+        "website": "https://www.vincit.fi/en/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "aMkj8nR8XX": {
+        "name": "Aiven",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Apache Cassandra",
+            "Apache Kafka",
+            "Go",
+            "Java",
+            "JavaScript",
+            "Linux",
+            "MySQL",
+            "PostgreSQL",
+            "Python",
+            "React",
+            "Scala",
+            "TypeScript"
+        ],
+        "flavor": "This company is on its way to becoming the world\u2019s leading database-as-a-service provider.",
+        "website": "https://aiven.io/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "68ULAtCCRe": {
+        "name": "Nitor",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Cjolure",
+            "Firebase",
+            "Flutter",
+            "GraphQL",
+            "Java",
+            "Java",
+            "JavaScript",
+            "Jetpack",
+            "Kotlin",
+            "Microsoft Azure",
+            "Node.js",
+            "Objective",
+            "Python",
+            "R",
+            "React Native",
+            "Scala",
+            "Swift"
+        ],
+        "flavor": "An engineering company that has retained its position as one of the dev geeks' favorite workplaces. Has recently focused on increasing well-being and competence development services for its experts.",
+        "website": "https://nitor.com/en",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "5Rgk6P3VlH": {
+        "name": "Eficode",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "CI",
+            "Clojure",
+            "Java",
+            "JavaScript",
+            "Microsoft Azure",
+            "Node.js",
+            "Python",
+            "React",
+            "Ruby",
+            "Scala"
+        ],
+        "flavor": "The flagship of DevOps in Europe. A versatile company with really interesting customers.",
+        "website": "https://www.eficode.com/fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "amPi3tR0OE": {
+        "name": "Bitfactor",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "CSS3",
+            "HTML5",
+            "Java",
+            "JavaScript",
+            "Microsoft Azure",
+            "Node.js",
+            "React"
+        ],
+        "flavor": "A consulting company that excels in design, software and analytics.",
+        "website": "https://loihdefactor.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "4s2t4hSZop": {
+        "name": "Oura",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Android",
+            "Angular",
+            "C",
+            "C++",
+            "Firebase",
+            "GraphQL",
+            "Java",
+            "Kotlin",
+            "Next.js",
+            "Python",
+            "Rust",
+            "SQL",
+            "Scala",
+            "TypeScript",
+            "iOS"
+        ],
+        "flavor": "\u014cura Health is a Finnish health technology company, best known for the Oura Ring.",
+        "website": "https://ouraring.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "dmuEnogj92": {
+        "name": "Luoto",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Apache Kafka",
+            "Apache Spark",
+            "Csharp",
+            "Flink",
+            "Go",
+            "Java",
+            "JavaScript",
+            "Kotlin",
+            "Microsoft Azure",
+            "Python",
+            "Rust",
+            "Scala",
+            "Snowflake",
+            "TypeScript"
+        ],
+        "flavor": "A software development consulting company that has grown its experienced team at insane pace. All employees are shareholders, and thus have real access to decision-making.",
+        "website": "https://www.luotocompany.fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "aWDjU0gDkk": {
+        "name": "Gofore",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Angular",
+            "Csharp",
+            "Docker",
+            "Flutter",
+            "Java",
+            "JavaScript",
+            "Kotlin",
+            "Kubernetes",
+            "Microsoft Azure",
+            "PostgreSQL",
+            "Python",
+            "React Native",
+            "Scala",
+            "TypeScript",
+            "Vue.js"
+        ],
+        "flavor": "A consulting company that has grown at a rapid pace while still maintaining a low hierarchy and truly open internal communication. One of the prime operators in the development of public sector services. A great place to grow for early-career developers as well.",
+        "website": "https://gofore.com/en/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "e7GZ2uu2ZD": {
+        "name": "Supercell",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Android",
+            "Angular",
+            "C++",
+            "Go",
+            "Java",
+            "Kotlin",
+            "Node.js",
+            "Terraform"
+        ],
+        "flavor": "As one would assume from the most successful gaming company from Finland, Supercell is one of the best employers for a developer interested in mobile games. Small development teams that are allowed to develop their games autonomously. \u201cFail fast and learn fast\u201d mentality.",
+        "website": "https://supercell.com/en/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "FbL0lQ88gj": {
+        "name": "Fraktio",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Docker",
+            "JavaScript",
+            "MongoDB",
+            "MySQL",
+            "PostgreSQL",
+            "Scala"
+        ],
+        "flavor": "Fraktio develops modern software with open-source technologies.",
+        "website": "https://www.fraktio.fi/en/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "JTOOsBl5hr": {
+        "name": "Qvik",
+        "location": [
+            "Finland",
+            "Sweden"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Android",
+            "Angular",
+            "CSS3",
+            "HTML5",
+            "Java",
+            "JavaScript",
+            "Kotlin",
+            "React",
+            "Vue.js",
+            "iOS"
+        ],
+        "flavor": "A mobile consulting company for the software industry.",
+        "website": "https://qvik.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "yz5coLJQka": {
+        "name": "Smartly",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "JavaScript",
+            "Kubernetes",
+            "Node.js",
+            "PHP",
+            "PostgreSQL",
+            "Python",
+            "RabbitMQ",
+            "React",
+            "Redis",
+            "Ruby",
+            "TypeScript",
+            "Vue.js"
+        ],
+        "flavor": "Smartly.io automates every step of social advertising to unlock greater performance and creativity.",
+        "website": "https://www.smartly.io/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "AaVJ46yhQ8": {
+        "name": "Vaisala",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            ".NET",
+            "C",
+            "C++",
+            "Csharp",
+            "Java",
+            "React"
+        ],
+        "flavor": "A company that manufactures weather and industrial measuring equipment and systems.",
+        "website": "https://www.vaisala.com/en",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "NOImxVf8xW": {
+        "name": "Nokia",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Apache Airflow",
+            "C",
+            "C++",
+            "Docker",
+            "Elasticsearch",
+            "Flutter",
+            "Java",
+            "JavaScript",
+            "Jenkins",
+            "Jupyter",
+            "Kibana",
+            "Kubernetes",
+            "Logstash",
+            "Microsoft Azure",
+            "MongoDB",
+            "Python",
+            "R",
+            "React Native",
+            "Vue.js"
+        ],
+        "flavor": "Nokia is a Finnish multinational telecommunications, information technology, and consumer electronics corporation",
+        "website": "https://www.nokia.com/fi_fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "y3AqJw6L01": {
+        "name": "Futurice",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            ".NET",
+            "Amazon Aws",
+            "Csharp",
+            "GCP",
+            "Java",
+            "JavaScript",
+            "Kotlin",
+            "Microsoft Azure",
+            "Node.js",
+            "Python",
+            "React",
+            "React Native",
+            "Swift",
+            "TypeScript"
+        ],
+        "flavor": "Futurice is a digital innovation and engineering company with Finnish roots. The core business is developing and designing digital services and products",
+        "website": "https://futurice.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "nSqVH1G5Sl": {
+        "name": "Mobal",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Celery",
+            "Django",
+            "ExpressJS",
+            "Flask",
+            "Node.js",
+            "PostgreSQL",
+            "Redis",
+            "Ruby",
+            "Ruby on rails",
+            "TypeScript",
+            "Vue.js",
+            "Vuetify"
+        ],
+        "flavor": "Mobal is a marketing software company helping businesses manage their business listings.",
+        "website": "https://www.mobal.io/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "eoOmfASxUQ": {
+        "name": "Pandatron",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Amazon Elastic Beanstalk",
+            "Express",
+            "MongoDB",
+            "Node.js",
+            "Node.js",
+            "Python",
+            "React",
+            "jQuery"
+        ],
+        "flavor": "Pandatron is a coaching automation startup on a mission to help people become better versions of themselves.",
+        "website": "https://pandatron.ai/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "5o4bMPf9WW": {
+        "name": "Scandit",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Android",
+            "Ansible",
+            "C",
+            "C++",
+            "Dash",
+            "Docker",
+            "FastAPI",
+            "Flask",
+            "GitLab",
+            "JavaScript",
+            "Kubernetes",
+            "Linux",
+            "MySQL",
+            "PostgreSQL",
+            "Python",
+            "React",
+            "Terraform",
+            "TypeScript",
+            "iOS"
+        ],
+        "flavor": "Scandit develops real-time computer vision solutions for smartphones, wearables and robots.",
+        "website": "https://www.scandit.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "yG3ZcRMLvh": {
+        "name": "Yousician",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Csharp",
+            "Docker",
+            "Flask",
+            "Java",
+            "Kubernetes",
+            "MongoDB",
+            "Python",
+            "Robot Framework",
+            "Terraform",
+            "TypeScript",
+            "Unity"
+        ],
+        "flavor": "Yousician makes learning to play an instrument fun and easy, no matter your skill level.",
+        "website": "https://yousician.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "lhbhbbK73O": {
+        "name": "Workfellow",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Apache Kafka",
+            "Apache Spark",
+            "Docker",
+            "Jupyter",
+            "Kubernetes",
+            "MS SQL",
+            "Microsoft Azure",
+            "NoSQL",
+            "Python",
+            "React",
+            "SQL"
+        ],
+        "flavor": "Workfellow analyses business operations in real-time.",
+        "website": "https://www.workfellow.ai/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "nYxtxJl0ot": {
+        "name": "Digisailx",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Keras",
+            "Numpy",
+            "Pandas",
+            "Python",
+            "Pytorch"
+        ],
+        "flavor": "Digisailx automates mind-numbing data entry tasks so people can focus on meaningful things.",
+        "website": "https://www.digisalix.fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "Jc164GpXE8": {
+        "name": "Posti",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            ".NET",
+            "Amazon Aws",
+            "C",
+            "Docker",
+            "JavaScript",
+            "Microsoft Azure",
+            "PostgreSQL",
+            "Python"
+        ],
+        "flavor": "Posti is a Finnish company specializing in postal services, logistics and financial administration services.",
+        "website": "https://www.posti.fi/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "e3Pe76D5ON": {
+        "name": "Finnair",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Android",
+            "Angular",
+            "BigQuery",
+            "CSS3",
+            "Docker",
+            "HTML5",
+            "Java",
+            "JavaScript",
+            "Kotlin",
+            "Node.js",
+            "Python",
+            "SQL",
+            "SaSS",
+            "Snowflake",
+            "Swift",
+            "TypeScript",
+            "iOS"
+        ],
+        "flavor": "Finnair is the flag carrier and largest airline of Finland, with its headquarters in Vantaa on the grounds of Helsinki Airport.",
+        "website": "https://www.finnair.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "1OrWTzqWdn": {
+        "name": "Nordcloud",
+        "location": [
+            "Finland",
+            "Denmark",
+            "Germany",
+            "Sweden",
+            "Poland",
+            "United Kingdom",
+            "Norway",
+            "Austria"
+        ],
+        "stack": [
+            "Ansible",
+            "Aurora",
+            "Bash",
+            "CloudFormation",
+            "Docker",
+            "DynamoDB",
+            "Flutter",
+            "Google Cloud",
+            "JavaScript",
+            "Jenkins",
+            "Kubernetes",
+            "Microsoft Azure",
+            "MySQL",
+            "Node.js",
+            "PostgreSQL",
+            "Python",
+            "React",
+            "React Native",
+            "Redshift",
+            "Terraform",
+            "Vue.js"
+        ],
+        "flavor": "Nordcloud is a European leader in cloud implementation, application development, managed services and training.",
+        "website": "https://nordcloud.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "9CkMnzONTm": {
+        "name": "Oda",
+        "location": [
+            "Norway",
+            "Germany"
+        ],
+        "stack": [
+            "BigQuery",
+            "CSS3",
+            "Datadog",
+            "Django",
+            "Docker",
+            "Google Cloud",
+            "HTML5",
+            "JavaScript",
+            "Kubernetes",
+            "Linux",
+            "PostgreSQL",
+            "Python",
+            "React",
+            "Salt",
+            "Terraform",
+            "VividCortex"
+        ],
+        "flavor": "Oda is building an online grocery store in the Nordics.",
+        "website": "https://oda.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "y2aIsPLVLm": {
+        "name": "Vertics",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Google Cloud",
+            "Node.js",
+            "PostgreSQL",
+            "React",
+            "React Native",
+            "Redux",
+            "TypeScript"
+        ],
+        "flavor": "Vertics is a youthful software specialist house. They do projects directly for customers.",
+        "website": "https://vertics.co/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "1it6ATZoJt": {
+        "name": "Videoly",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Kinesis",
+            "Node.js",
+            "Redshift",
+            "Ruby"
+        ],
+        "flavor": "Videoly automatically connects the world\u2019s best product videos to online stores.",
+        "website": "https://videoly.co/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "FvVEcOOF4Q": {
+        "name": "Huld",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Android",
+            "C",
+            "C++",
+            "Docker",
+            "Flutter",
+            "Kubernetes",
+            "Linux",
+            "Python",
+            "React Native",
+            "Robot Framework",
+            "Terraform",
+            "iOS"
+        ],
+        "flavor": "Huld's mission is to provide technological design expertise to customers.",
+        "website": "https://huld.io/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "w8XPw9DcoZ": {
+        "name": "Mapbox",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Android",
+            "C++",
+            "Dart",
+            "Java",
+            "JavaScript",
+            "Kotlin",
+            "Metal",
+            "Objective",
+            "OpenGL",
+            "Python",
+            "React Native",
+            "Swift",
+            "Vulkan",
+            "WebGl",
+            "iOS"
+        ],
+        "flavor": "Mapbox provides precise location data and powerful developer tools for navigation.",
+        "website": "https://www.mapbox.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "w8Xaw9DcoZ": {
+    "name": "Synopsys",
+    "location": [
+        "Finland"
+    ],
+    "stack": [
+        "Angular",
+        "React",
+        "Kubernetes",
+        "NoSQL",
+        "Apache Kafka",
+        "MongoDB",
+        "Rabbit",
+        "Docker",
+        "SQL",
+        "Amazon Aws",
+        "Google Cloud",
+        "Java",
+        "Python"
+    ],
+    "flavor": "Synopsys is an US electronic design automation company that focuses on silicon design and verification, and software security and quality. ",
+    "website": "https://www.synopsys.com/",
+    "tags": [],
+    "alt_link": "",
+    "premium": false
+    },
+    "w8XawaDcoZ": {
+    "name": "Swarmia",
+    "location": [
+        "Finland"
+    ],
+    "stack": [
+        "TypeScript",
+        "React",
+        "PostgreSQL",
+        "Terraform",
+        "Google Cloud",
+        "Kubernetes",
+        "Docker",
+        "Slonik",
+        "Apollo Server",
+        "Node.js",
+        "GraphQL",
+        "Sentry",
+        ""
+    ],
+    "flavor": "Swarma provides insights and tools for high-performing engineering teams.",
+    "website": "https://www.swarmia.com/",
+    "tags": [],
+    "alt_link": "",
+    "premium": false
+    }
+}

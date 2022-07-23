@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>StackDeck</title>
+    <meta name="description"
+          content="StackDeck is a blazing fast api "/>
+    <link href="/static/bootstrap.css" rel="stylesheet">
+    <link id="favicon" rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="/static/bootstrap.css" rel="stylesheet">
+</head>
+  <body>
+{% include 'navbar.html' %}
+{% block navbar %}
+{% endblock %}
+<section class="py-7" id="features">
+    <div class="row p-4 g-3">
+        {% for office in search_results.values() %}
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mx-auto">
+                {% if office.premium == true > 0 %}
+                    {% set card_class = "border-premium" %}
+                {% else %}
+                    {% set card_class = "" %}
+                {% endif %}
+                <div class="card text-center {{ card_class }}">
+                    <div class="card-header">
+                        <h3 class="card-title">{{ office.name }}
+                        </h3>
+                        <h6>
+                            {% if office.tags|length > 0 %}
+                                {% for tag in  office.tags  %}
+                                    {% if tag == "Hiring" %}
+                                        {% set class = "bg-info" %}
+                                    {% elif tag == "Premium" %}
+                                        {% set class = "bg-warning" %}
+                                    {% elif tag == "Remote" %}
+                                        {% set class = "bg-success" %}
+                                    {% else %}
+                                        {% set class = "bg-info" %}
+                                    {% endif %}
+                                    &nbsp &nbsp <span class="badge {{ class }} ">{{ tag }}</span>
+                                {% endfor %}
+                            {% endif %}
+                        </h6>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-text">Flavor</h4>
+                        <p class="card-text">{{ office.flavor }}</p>
+                        <hr>
+                        <h4 class="card-text">Stack</h4>
+                        {% for framework in office.stack %}
+                        <a href="/search/{{framework}}">
+                            <img alt="" class="image" src="https://img.shields.io/badge/{{framework}}-2B3F5A?style=for-the-badge&logo={{framework}}&logoColor=white)()"></a>
+                        {% endfor %}
+                        <br>
+                        <br>
+                        <a href="{{ office.website }}" target="_blank" class="btn btn-success">Website</a>
+                        {% if office.alt_link|length > 0  %}
+                            <a href="{{ office.alt_link }}" target="_blank" class="btn btn-premium">Apply!</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>>
+
+<!--footer-->
+{% include 'footer.html' %}
+{% block footer %}
+{% endblock %}

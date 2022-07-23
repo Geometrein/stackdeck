@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>StackDeck</title>
+    <meta name="description"
+          content="StackDeck is a blazing fast api "/>
+    <link href="/static/bootstrap.css" rel="stylesheet" type="text/css">
+    <link id="favicon" rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+</head>
+<body>
+<!--navigation-->
+{% include 'navbar.html' %}
+{% block content %}
+{% endblock %}
+
+<!--hero header-->
+<section class="" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto my-auto text-center">
+                <h1 class="heading-black text-capitalize">Blazing fast api for hunting tech stacks</h1>
+                <p class="lead py-3">Stack Deck is a platform that helps developers find companies based on their tech stack.</p>
+                <div class="col-lg-6 mx-auto my-auto text-center">
+                    <form class="input-group mb-3" action="/search/">
+                        <input class="form-control"  placeholder="try JavaScript or Python" name="query" type="search" aria-label="search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="col-lg-10 mx-auto my-auto text-center">
+                    <a href="/search/Python">
+                        <img alt="" class="image" src="https://img.shields.io/badge/Python-2B3F5A?style=for-the-badge&logo=Python&logoColor=white)()"></a>
+                    <a href="/search/JavaScript">
+                        <img alt="" class="image" src="https://img.shields.io/badge/JavaScript-2B3F5A?style=for-the-badge&logo=JavaScript&logoColor=white)()"></a>
+                    <a href="/search/Go">
+                        <img alt="" class="image" src="https://img.shields.io/badge/Go-2B3F5A?style=for-the-badge&logo=Go&logoColor=white)()"></a>
+                    <a href="/search/Docker">
+                                <img alt="" class="image" src="https://img.shields.io/badge/Docker-2B3F5A?style=for-the-badge&amp;logo=Docker&amp;logoColor=white)()"></a>
+                    <a href="/search/Java">
+                                <img alt="" class="image" src="https://img.shields.io/badge/Java-2B3F5A?style=for-the-badge&amp;logo=Java&amp;logoColor=white)()"></a>
+                    <a href="/search/Kubernetes">
+                                <img alt="" class="image" src="https://img.shields.io/badge/Kubernetes-2B3F5A?style=for-the-badge&amp;logo=Kubernetes&amp;logoColor=white)()"></a>
+                    <a href="/search/R">
+                                <img alt="" class="image" src="https://img.shields.io/badge/R-2B3F5A?style=for-the-badge&amp;logo=R&amp;logoColor=white)()"></a>
+                    <a href="/search/Node.js">
+                                <img alt="" class="image" src="https://img.shields.io/badge/Node.js-2B3F5A?style=for-the-badge&amp;logo=Node.js&amp;logoColor=white)()"></a>
+                    <a href="/search/React">
+                                <img alt="" class="image" src="https://img.shields.io/badge/React-2B3F5A?style=for-the-badge&amp;logo=React&amp;logoColor=white)()"></a>
+                    <a href="/search/Scala">
+                                <img alt="" class="image" src="https://img.shields.io/badge/Scala-2B3F5A?style=for-the-badge&amp;logo=Scala&amp;logoColor=white)()"></a>
+                    <a href="/search/TypeScript">
+                                <img alt="" class="image" src="https://img.shields.io/badge/TypeScript-2B3F5A?style=for-the-badge&amp;logo=TypeScript&amp;logoColor=white)()"></a>
+                    <a href="/search/C">
+                                <img alt="" class="image" src="https://img.shields.io/badge/C-2B3F5A?style=for-the-badge&amp;logo=C&amp;logoColor=white)()"></a>
+                    <a href="/search/C++">
+                                <img alt="" class="image" src="https://img.shields.io/badge/C++-2B3F5A?style=for-the-badge&amp;logo=C++&amp;logoColor=white)()"></a>
+                    <a href="/search/Redis">
+                                <img alt="" class="image" src="https://img.shields.io/badge/Redis-2B3F5A?style=for-the-badge&amp;logo=Redis&amp;logoColor=white)()"></a>
+                    <a href="/search/Kotlin">
+                                <img alt="" class="image" src="https://img.shields.io/badge/Kotlin-2B3F5A?style=for-the-badge&amp;logo=Kotlin&amp;logoColor=white)()"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</section>
+
+<!--features section-->
+<section class="py-7" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2>Features</h2>
+                <p class="text-muted">
+                    StackDeck offers a developer friendly way for finding tech companies.
+                </p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-10 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card text-left">
+                            <div class="card-header">
+                                <h6 class="card-title">Informed job hunt</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="text">With StackDeck you can browse companies based on their tech stack, analyze popularity of different tools and find companies with stack matching your knowledge. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card text-left">
+                            <div class="card-header">
+                                <h6 class="card-title">Open API</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="text">Not interested in GUI? Search companies with our blazing fast API. Analise the popularity of different frameworks and find the best match for you with a single request. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card text-left">
+                            <div class="card-header">
+                                <h6 class="card-title">Growing Database</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="text">New companies are scraped and added continuously. The api is free and open for everyone. We strongly encourage creation of new projects that utilize it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card text-left">
+                            <div class="card-header">
+                                <h6 class="card-title">Free Forever</h6>
+                            </div>
+                            <div class="card-body">
+                                <p class="text">StackDev is free for developers and will always be. There are no monetary incentives behind the project, just shitload of frustration with LinkedIn and other job search services.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</section>
+
+<!--Docs-->
+<section class="py-7" id="docs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2>Docs</h2>
+                <p class="text">
+                    You can see our API documentation by clicking on the button below.
+                </p>
+                <a href="/docs"><img class="image" src="https://img.shields.io/badge/SwaggerUi-3498db?style=for-the-badge&logo=swagger&logoColor=white)()"></a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</section>
+
+<!--Support-->
+<section class="py-7" id="support">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2>Contribute</h2>
+                <p class="text">
+                    The best way to support Stack Deck is by sharing our platform adn contributing! Dont like how something is made? change it! Your company is missing? Add it!
+                </p>
+                <a href=""><img class="image" src="https://img.shields.io/badge/GitHub-3498db?style=for-the-badge&logo=GitHub&logoColor=white)()"></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</section>
+
+<!--Support-->
+<section class="py-7" id="companies">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2>For Companies</h2>
+                <p class="text">
+                    Want stand out? Make your company more visible on our <a href='/search/?query=python'>search</a> service by sponsoring the project!
+                </p>
+            </div>
+                <div class="row mt-5">
+                    <div class="col-md-10 mx-auto">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="card text-left">
+                                    <div class="card-header">
+                                        <h4 class="card-title placeholder col-6"></h4>
+                                    </div>
+                                    <div class="card-body">
+                                     <h4 class="card-title placeholder-wave">
+                                          <span class="placeholder col-6"></span>
+                                        </h4>
+                                        <p class="card-text placeholder-wave">
+                                          <span class="placeholder col-7"></span>
+                                          <span class="placeholder col-4"></span>
+                                          <span class="placeholder col-4"></span>
+                                          <span class="placeholder col-6"></span>
+                                          <span class="placeholder col-8"></span>
+                                        </p>
+                                        <a href="/#companies" class="btn btn-success">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="card text-left border-premium">
+                                    <div class="card-header">
+                                        <h6 class="card-title">Your Company &nbsp &nbsp <span class="badge bg-warning">Premium</span>
+                                            &nbsp &nbsp <span class="badge bg-info">Now Hiring</span>
+                                            &nbsp &nbsp <span class="badge bg-success">Remote</span>
+                                        </h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title placeholder-wave">
+                                          <span class=" col-6">About Your Company</span>
+                                        </h5>
+                                        <p class="card-text">
+                                            Some amazing details about your company that will make talented developers super excited to collaborate with you.
+                                            Make your company card stand out from the deck!
+                                        </p>
+                                        <a href="/#companies" class="btn btn-success">Your Website</a>
+                                        <a href="/#companies" class="btn btn-premium">Custom Link</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="card text-left ">
+                                    <div class="card-header">
+                                        <h4 class="card-title placeholder col-6"></h4>
+                                    </div>
+                                    <div class="card-body">
+                                     <h4 class="card-title placeholder-wave">
+                                          <span class="placeholder col-6"></span>
+                                        </h4>
+                                        <p class="card-text placeholder-wave">
+                                          <span class="placeholder col-7"></span>
+                                          <span class="placeholder col-4"></span>
+                                          <span class="placeholder col-4"></span>
+                                          <span class="placeholder col-6"></span>
+                                          <span class="placeholder col-8"></span>
+                                        </p>
+                                        <a href="/#companies" class="btn btn-success">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="card text-left">
+                                    <div class="card-header">
+                                        <h4 class="card-title placeholder col-6"></h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title placeholder-wave">
+                                          <span class="placeholder col-6"></span>
+                                        </h4>
+                                        <p class="card-text placeholder-wave">
+                                          <span class="placeholder col-7"></span>
+                                          <span class="placeholder col-4"></span>
+                                          <span class="placeholder col-4"></span>
+                                          <span class="placeholder col-6"></span>
+                                          <span class="placeholder col-8"></span>
+                                        </p>
+                                        <a href="/#companies" class="btn btn-success">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="col-md-6 mx-auto text-center">
+                            <br>
+                            <a href="" target="_blank" class="btn btn-info">Get In touch!</a>
+                            <br>
+                            <br>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!--footer-->
+{% include 'footer.html' %}
+{% block footer %}
+{% endblock %}
+<!--scroll to top-->
+<div class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+</body>
+</html>
