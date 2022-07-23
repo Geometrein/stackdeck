@@ -17,7 +17,7 @@
 <section class="py-7" id="features">
     <div class="row p-4 g-3">
         {% for office in search_results.values() %}
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mx-auto">
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                 {% if office.premium == true > 0 %}
                     {% set card_class = "border-premium" %}
                 {% else %}
@@ -64,7 +64,7 @@
             </div>
         {% endfor %}
     </div>
-</section>>
+</section>
 
 <!--footer-->
 {% include 'footer.html' %}
