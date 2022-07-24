@@ -9,6 +9,6 @@ class Card(BaseModel):
     location: list
     stack: list
     flavor: str
-    link: HttpUrl
+    website: HttpUrl
     tags: list
     alt_link: HttpUrl

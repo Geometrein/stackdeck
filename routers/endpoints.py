@@ -10,7 +10,8 @@ from methods.util import (
     search_multiple_frameworks,
     stack_similarity,
     stack_difference,
-    stack_symmetric_difference
+    stack_symmetric_difference,
+    get_mots_used_frameworks
 )
 
 endpoints = APIRouter()
@@ -23,20 +24,17 @@ async def get_deck_stats() -> dict:
     return result
 
 
-@endpoints.get("/cards/", status_code=200)
-async def get_card_by_name(name: str = 'CHAOS') -> Card or dict:
+@endpoints.get("/cards/", status_code=200, response_model=Card)
+async def get_card_by_name(name: str = 'CHAOS') -> Card:
     """
     Returns a card by name.
     """
     search_results = search_by_company_name(name)
-    if check_query_results(search_results):
-        return search_results
-    else:
-        return {}
+    return search_results
 
 
-@endpoints.get("/cards/random", status_code=200)
-async def get_random_item() -> dict:
+@endpoints.get("/cards/random", status_code=200, response_model=Card)
+async def get_random_item() -> Card:
     """
     Returns a random card from the deck.
     """
@@ -77,11 +75,23 @@ async def get_card_difference(
 
 
 @endpoints.post("/frameworks/", status_code=200)
-async def get_cards_by_framework(frameworks: list[str]) -> dict:
+async def get_cards_by_frameworks(frameworks: list[str]) -> dict:
     """
     Returns cards that share the list of provided frameworks.
     """
     search_results = search_multiple_frameworks(frameworks)
+    if check_query_results(search_results):
+        return search_results
+    else:
+        return {}
+
+
+@endpoints.get("/frameworks/frequency", status_code=200)
+async def get_frameworks_by_use_frequency(length: int = 10) -> dict:
+    """
+    Returns cards that share the list of provided frameworks.
+    """
+    search_results = get_mots_used_frameworks(n=length)
     if check_query_results(search_results):
         return search_results
     else:

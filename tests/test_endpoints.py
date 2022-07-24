@@ -11,6 +11,7 @@ def test_get_deck_stats():
     assert 'deck_length' in response.json()
     assert 'most_used_framework' in response.json()
     assert 'mean_stack_length' in response.json()
+    assert 'total_frameworks' in response.json()
 
 
 def test_get_card_by_name():

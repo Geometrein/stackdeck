@@ -1730,56 +1730,135 @@
         "alt_link": "",
         "premium": false
     },
-    "w8Xaw9DcoZ": {
-    "name": "Synopsys",
-    "location": [
-        "Finland"
-    ],
-    "stack": [
-        "Angular",
-        "React",
-        "Kubernetes",
-        "NoSQL",
-        "Apache Kafka",
-        "MongoDB",
-        "Rabbit",
-        "Docker",
-        "SQL",
-        "Amazon Aws",
-        "Google Cloud",
-        "Java",
-        "Python"
-    ],
-    "flavor": "Synopsys is an US electronic design automation company that focuses on silicon design and verification, and software security and quality. ",
-    "website": "https://www.synopsys.com/",
-    "tags": [],
-    "alt_link": "",
-    "premium": false
+    "xF0HSHncAF": {
+        "name": "Synopsys",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Angular",
+            "Apache Kafka",
+            "Docker",
+            "Google Cloud",
+            "Java",
+            "Kubernetes",
+            "MongoDB",
+            "NoSQL",
+            "Python",
+            "Rabbit",
+            "React",
+            "SQL"
+        ],
+        "flavor": "Synopsys is an US electronic design automation company that focuses on silicon design and verification, and software security and quality. ",
+        "website": "https://www.synopsys.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
     },
-    "w8XawaDcoZ": {
-    "name": "Swarmia",
-    "location": [
-        "Finland"
-    ],
-    "stack": [
-        "TypeScript",
-        "React",
-        "PostgreSQL",
-        "Terraform",
-        "Google Cloud",
-        "Kubernetes",
-        "Docker",
-        "Slonik",
-        "Apollo Server",
-        "Node.js",
-        "GraphQL",
-        "Sentry",
-        ""
-    ],
-    "flavor": "Swarma provides insights and tools for high-performing engineering teams.",
-    "website": "https://www.swarmia.com/",
-    "tags": [],
-    "alt_link": "",
-    "premium": false
+    "C1Ks9pbjj1": {
+        "name": "Swarmia",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "",
+            "Apollo Server",
+            "Docker",
+            "Google Cloud",
+            "GraphQL",
+            "Kubernetes",
+            "Node.js",
+            "PostgreSQL",
+            "React",
+            "Sentry",
+            "Slonik",
+            "Terraform",
+            "TypeScript"
+        ],
+        "flavor": "Swarma provides insights and tools for high-performing engineering teams.",
+        "website": "https://www.swarmia.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "ihXxPDf9lD": {
+        "name": "Nvidia",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Bash",
+            "Blender",
+            "C",
+            "C++",
+            "Docker",
+            "Go",
+            "Java",
+            "Kubernetes",
+            "Linux",
+            "Maya",
+            "Python",
+            "Starlark",
+            "Unreal"
+        ],
+        "flavor": "Nvidia is an American multinational technology company. Nvidia GPU's, API's and high-performance computing. ",
+        "website": "https://www.nvidia.com/en-us/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "6iO0Mxmzon": {
+        "name": "CubiCasa",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "Android",
+            "C++",
+            "CSS3",
+            "CocoaPods",
+            "Docker",
+            "Firebase",
+            "HTML5",
+            "Kubernetes",
+            "Python",
+            "Swift",
+            "iOS"
+        ],
+        "flavor": "CubiCasa develops a floor planning solution for iOS and Android devices.",
+        "website": "https://www.cubi.casa/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "BQTUgmZesP": {
+        "name": "Electronic Arts",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "ActionScript",
+            "C++",
+            "CSS3",
+            "Csharp",
+            "Docker",
+            "Go",
+            "HTML5",
+            "Java",
+            "JavaScript",
+            "Kubernetes",
+            "Linux",
+            "Lua",
+            "Python",
+            "Ruby",
+            "Terraform"
+        ],
+        "flavor": "Electronic Arts that develops and publishes video games.",
+        "website": "https://www.ea.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
     }
 }

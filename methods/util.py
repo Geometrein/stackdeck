@@ -2,6 +2,8 @@ import os
 import json
 import random
 from statistics import mode, mean
+from collections import Counter
+from schemas.schemas import Card
 
 
 def load_deck() -> dict:
@@ -11,7 +13,7 @@ def load_deck() -> dict:
     return deck
 
 
-def get_random_card() -> dict:
+def get_random_card() -> Card:
     deck = load_deck()
     random_entry_key = random.choice(list(deck.keys()))
     office_by_id = deck[random_entry_key]
@@ -24,14 +26,29 @@ def get_card_count() -> int:
     return company_count
 
 
-def search_single_framework(framework: str) -> dict:
+def get_framework_count(deck: dict) -> int:
+    framework_list = []
+    for key, value in deck.items():
+        for framework in value['stack']:
+            framework_list.append(framework)
+    framework_count = len(set(framework_list))
+    return framework_count
+
+
+def get_mots_used_frameworks(n: int = 10) -> dict:
     deck = load_deck()
-    search_results = {}
-    for key, card in deck.items():
-        stack_list_lowercase = [string.lower() for string in card['stack']]
-        if framework.lower() in stack_list_lowercase:
-            search_results[key] = card
-    return search_results
+    framework_list = []
+    for key, value in deck.items():
+        for framework in value['stack']:
+            framework_list.append(framework)
+
+    frequency = Counter(framework_list)
+    if len(frequency) > n:
+        top_n_frameworks = frequency.most_common(n)
+    else:
+        top_n_frameworks = frequency.most_common(len(frequency))
+    results = {key: value for key, value in top_n_frameworks}
+    return results
 
 
 def search_multiple_frameworks(frameworks: list) -> dict:
@@ -45,7 +62,7 @@ def search_multiple_frameworks(frameworks: list) -> dict:
     return search_results
 
 
-def search_by_company_name(company_name: str) -> dict:
+def search_by_company_name(company_name: str) -> Card:
     deck = load_deck()
     search_results = {}
     for key, card in deck.items():
@@ -81,11 +98,13 @@ def get_most_used_framework(deck: dict) -> str:
 def get_deck_statistics() -> dict:
     deck = load_deck()
     deck_length = get_card_count()
+    framework_count = get_framework_count(deck)
     most_used = get_most_used_framework(deck)
     mean_stack_length = get_mean_stack_length(deck)
     results = {
         'deck_length': deck_length,
         'most_used_framework': most_used,
+        'total_frameworks': framework_count,
         'mean_stack_length': mean_stack_length
     }
     return results
