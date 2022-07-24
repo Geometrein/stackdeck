@@ -51,6 +51,16 @@ def get_mots_used_frameworks(n: int = 10) -> dict:
     return results
 
 
+def search_single_framework(framework: str) -> dict:
+    deck = load_deck()
+    search_results = {}
+    for key, card in deck.items():
+        stack_list_lowercase = [string.lower() for string in card['stack']]
+        if framework.lower() in stack_list_lowercase:
+            search_results[key] = card
+    return search_results
+
+
 def search_multiple_frameworks(frameworks: list) -> dict:
     deck = load_deck()
     search_results = {}

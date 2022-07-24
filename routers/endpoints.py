@@ -6,7 +6,6 @@ from methods.util import (
     check_query_results,
     get_deck_statistics,
     search_by_company_name,
-    search_single_framework,
     search_multiple_frameworks,
     stack_similarity,
     stack_difference,

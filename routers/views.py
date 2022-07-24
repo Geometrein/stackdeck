@@ -3,8 +3,8 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 
 from methods.util import (
-    search_single_framework,
     check_query_results,
+    search_single_framework
 )
 
 
