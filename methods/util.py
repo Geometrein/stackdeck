@@ -35,7 +35,7 @@ def get_framework_count(deck: dict) -> int:
     return framework_count
 
 
-def get_mots_used_frameworks(n: int = 10) -> dict:
+def get_most_used_frameworks(n: int = 10) -> dict:
     deck = load_deck()
     framework_list = []
     for key, value in deck.items():

@@ -4,7 +4,8 @@ from fastapi.responses import HTMLResponse
 
 from methods.util import (
     check_query_results,
-    search_single_framework
+    search_single_framework,
+    get_most_used_frameworks
 )
 
 
@@ -50,3 +51,20 @@ async def page_not_found(request: Request) -> Jinja2Templates.TemplateResponse:
     404 page
     """
     return templates.TemplateResponse("404.html", {"request": request})
+
+
+@views.get("/deck/dashboard", response_class=HTMLResponse, include_in_schema=False, status_code=200)
+async def deck_dashboard(request: Request) -> Jinja2Templates.TemplateResponse:
+    """
+    Deck Dashboard
+    """
+    most_used_dict = get_most_used_frameworks(n=20)
+    labels = list(most_used_dict.keys())
+    values = list(most_used_dict.values())
+    percentage = [round((value/sum(values)) * 100, 1) for value in values]
+    return templates.TemplateResponse("dashboard.html", {
+        "request": request,
+        "labels": labels,
+        "values": values,
+        "percentage": percentage
+    })

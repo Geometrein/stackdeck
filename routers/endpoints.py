@@ -10,7 +10,7 @@ from methods.util import (
     stack_similarity,
     stack_difference,
     stack_symmetric_difference,
-    get_mots_used_frameworks
+    get_most_used_frameworks
 )
 
 endpoints = APIRouter()
@@ -90,7 +90,7 @@ async def get_frameworks_by_use_frequency(length: int = 10) -> dict:
     """
     Returns cards that share the list of provided frameworks.
     """
-    search_results = get_mots_used_frameworks(n=length)
+    search_results = get_most_used_frameworks(n=length)
     if check_query_results(search_results):
         return search_results
     else:

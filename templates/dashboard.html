@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>StackDeck</title>
+        <meta name="description"
+              content="StackDeck is a blazing fast api "/>
+        <meta property="og:title" content="StackDeck Blazing fast api for searching tech stacks.">
+        <meta property="og:description" content="Browse trougth the stacks of diferent companies compare and analyze tech popularity.">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://stackdeck.dev">
+        <meta property="og:image" content="https://stackdeck.dev/static/images/og_image.png"/>
+        <link href="/static/bootstrap.css" rel="stylesheet" type="text/css">
+        <link id="favicon" rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <!--navigation-->
+        {% include 'navbar.html' %}
+        {% block content %}
+        {% endblock %}
+
+        <!--Dashboard-->
+        <section class="py-7" id="companies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card text-left h-100">
+                            <div class="card-header">
+                                <h5 class="card-title col-6">Tech by Usage</h5>
+                            </div>
+                            <div class="card-body h-100">
+                                 <h4 class="card-title">
+                                     <span class="col-6"></span>
+                                 </h4>
+                                <canvas id="barChart" height="300px">
+                                    <script>
+                                        var ctx = document.getElementById("barChart").getContext("2d")
+                                        var lineChart = new Chart(ctx, {
+                                            type: "bar",
+                                            data: {
+                                                labels: {{ labels | safe }},
+                                                datasets: [
+                                                    {
+                                                        label: "Number of Companies",
+                                                        data: {{ values | safe }},
+                                                        fill: false,
+                                                        borderColor: "#152336",
+                                                        backgroundColor: [
+                                                          "#F94144",
+                                                          "#F65A38",
+                                                          "#F3722C",
+                                                          "#f68425",
+                                                          "#F8961E",
+                                                          "#f98d34",
+                                                          "#F9844A",
+                                                          "#f9a64d",
+                                                          "#F9C74F",
+                                                          "#c5c35e",
+                                                          "#90BE6D",
+                                                          "#6ab47c",
+                                                          "#43AA8B",
+                                                          "#489d8d",
+                                                          "#4D908E",
+                                                          "#52838f",
+                                                          "#577590",
+                                                          "#3f7999",
+                                                          "#277DA1",
+                                                          "#2e8fb9"
+                                                        ],
+                                                        borderColor: "#152336",
+                                                    }
+                                                ]
+                                            },
+                                            options: {
+                                                responsive: true,
+                                                indexAxis: 'y',
+                                                scales: {
+                                                  yAxes: [
+                                                    {
+                                                        barThickness: 10,
+                                                    }
+                                                  ]
+                                                }
+                                            }
+                                        }
+                                        );
+                                    </script>
+                                </canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card text-left">
+                            <div class="card-header">
+                                <h5 class="card-title col-6">Tech Popularity (%)</h5>
+                            </div>
+                            <div class="card-body">
+                                 <h4 class="card-title">
+                                     <span class="col-6"></span>
+                                 </h4>
+                                <canvas id="pieChart" height="300px">
+                                    <script>
+                                        var ctx = document.getElementById("pieChart").getContext("2d")
+                                        var lineChart = new Chart(ctx, {
+                                            type: "doughnut",
+                                            data: {
+                                                labels: {{ labels | safe }},
+                                                datasets: [
+                                                    {
+                                                        labels: "Number of Companies",
+                                                        data: {{ percentage | safe }},
+                                                        color: "#152336",
+                                                        backgroundColor: [
+                                                          "#F94144",
+                                                          "#F65A38",
+                                                          "#F3722C",
+                                                          "#f68425",
+                                                          "#F8961E",
+                                                          "#f98d34",
+                                                          "#F9844A",
+                                                          "#f9a64d",
+                                                          "#F9C74F",
+                                                          "#c5c35e",
+                                                          "#90BE6D",
+                                                          "#6ab47c",
+                                                          "#43AA8B",
+                                                          "#489d8d",
+                                                          "#4D908E",
+                                                          "#52838f",
+                                                          "#577590",
+                                                          "#3f7999",
+                                                          "#277DA1",
+                                                          "#2e8fb9"
+                                                        ],
+                                                        borderColor: "#152336",
+                                                    }
+                                                ]
+                                            },
+                                            options: {
+                                                responsive: true,
+                                                indexAxis: 'y',
+                                                cutout: '75%'
+                                            }
+                                        }
+                                        );
+                                    </script>
+                                </canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--footer-->
+        {% include 'footer.html' %}
+        {% block footer %}
+        {% endblock %}
+
+    </body>
+</html>
