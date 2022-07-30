@@ -1909,5 +1909,27 @@
         ],
         "alt_link": "https://www.lifeatspotify.com/jobs",
         "premium": true
+    },
+    "6WJXM6GlQA": {
+        "name": "Sample Company",
+        "location": [
+            "Sample Location"
+        ],
+        "stack": [
+            "Sample Framework",
+            "Sample Framework",
+            "Sample Framework",
+            "Sample Framework",
+            "Sample Framework",
+            "Sample Framework",
+            "Sample Framework",
+            "Sample Framework"
+        ],
+        "flavor": "Some details about the Sample Company",
+        "website": "https://www.SampleCompany.xyz/",
+        "tags": [
+        ],
+        "alt_link": "",
+        "premium": false
     }
 }
