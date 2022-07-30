@@ -1,5 +1,5 @@
 {
-    "bo0w36LV01": {
+    "xB0TrZo22M": {
         "name": "Monty Python",
         "location": [
             "Camelot"
@@ -15,14 +15,14 @@
         "alt_link": "",
         "premium": false
     },
-    "ONpgXtPBh0": {
+    "DerzK0dmdF": {
         "name": "Remedy Entertainment",
         "location": [
             "Finland"
         ],
         "stack": [
+            "C sharp",
             "C++",
-            "Csharp",
             "Docker",
             "Go",
             "Kubernetes",
@@ -34,7 +34,7 @@
         "tags": [],
         "premium": false
     },
-    "Fqri1IVBNv": {
+    "xVLZOtac5a": {
         "name": "Holvi",
         "location": [
             "Finland"
@@ -55,7 +55,7 @@
         "alt_link": "",
         "premium": false
     },
-    "ryQjOuOMrc": {
+    "uK2ICTuNV6": {
         "name": "Meru Health",
         "location": [
             "Finland"
@@ -74,7 +74,7 @@
         "alt_link": "",
         "premium": false
     },
-    "2ymWnDbXqa": {
+    "wZZXFm52OW": {
         "name": "UpCloud",
         "location": [
             "Finland"
@@ -99,7 +99,7 @@
         "alt_link": "https://upcloud.com/careers/#open-positions",
         "premium": true
     },
-    "8J6S2mJdiQ": {
+    "lvuCOY4zCZ": {
         "name": "Mavericks",
         "location": [
             "Finland"
@@ -130,7 +130,7 @@
         "alt_link": "",
         "premium": false
     },
-    "k9sEeMGzSV": {
+    "WvqRaP7dsX": {
         "name": "Varjo",
         "location": [
             "Finland"
@@ -153,7 +153,7 @@
         "alt_link": "",
         "premium": false
     },
-    "Z9jUNAARRX": {
+    "CjcwQPvy3B": {
         "name": "SOK",
         "location": [
             "Finland"
@@ -177,7 +177,7 @@
         "alt_link": "",
         "premium": false
     },
-    "92A5b0QFPu": {
+    "8LcfOCR0eu": {
         "name": "Elisa",
         "location": [
             "Finland"
@@ -202,7 +202,7 @@
         "alt_link": "",
         "premium": false
     },
-    "NODyF1s47x": {
+    "0rrfyqFAMu": {
         "name": "Tomorrow Tech",
         "location": [
             "Finland"
@@ -221,7 +221,7 @@
         "alt_link": "",
         "premium": false
     },
-    "p7JlMRO8E4": {
+    "5YxqWDS49n": {
         "name": "Reaktor",
         "location": [
             "Finland",
@@ -231,7 +231,6 @@
             "Sweden"
         ],
         "stack": [
-            "Amazon Aws",
             "Amazon Aws",
             "Clojure",
             "Flutter",
@@ -253,7 +252,7 @@
         "alt_link": "",
         "premium": false
     },
-    "rEyrG3eds9": {
+    "tPwXhUQMbY": {
         "name": "Droppe",
         "location": [
             "Finland"
@@ -274,7 +273,7 @@
         "alt_link": "",
         "premium": false
     },
-    "Dn8jMy49WX": {
+    "A3VGvIYKMH": {
         "name": "Fingersoft",
         "location": [
             "Finland"
@@ -285,7 +284,7 @@
             "Java",
             "Linux",
             "NoSQL",
-            "Objective",
+            "Objective--C",
             "Python",
             "Unity"
         ],
@@ -295,7 +294,7 @@
         "alt_link": "",
         "premium": false
     },
-    "sk8hqxLEEk": {
+    "kVKBGIuAUt": {
         "name": "Kisko Labs",
         "location": [
             "Finland"
@@ -318,14 +317,14 @@
         "alt_link": "",
         "premium": false
     },
-    "lSntYQfYQB": {
+    "V1Su48dr85": {
         "name": "Sievo",
         "location": [
             "Finland"
         ],
         "stack": [
             ".NET",
-            "Csharp",
+            "C sharp",
             "Databricks",
             "JavaScript",
             "Microsoft Azure",
@@ -341,7 +340,7 @@
         "alt_link": "",
         "premium": false
     },
-    "die6uDM7ie": {
+    "egwcn3BMdx": {
         "name": "Telia",
         "location": [
             "Finland",
@@ -378,25 +377,32 @@
         "alt_link": "",
         "premium": false
     },
-    "Lv7eZzrHFh": {
+    "YudOunzBd4": {
         "name": "Silo.ai",
         "location": [
             "Finland"
         ],
         "stack": [
+            "Amazon Aws",
             "Angular",
-            "Docker",
+            "Apache Airflow",
+            "Bitbucket",
             "Docker",
             "Flask",
             "Java",
             "Jenkins",
             "Jupyter",
+            "Kubeflow",
             "Kubernetes",
+            "MLFlow",
             "Meteor",
             "MongoDB",
             "Node.js",
+            "PostgreSQL",
             "Python",
-            "Scikit-learn"
+            "React",
+            "Scikit--learn",
+            "Vue.js"
         ],
         "flavor": "The company wants to democratize AI and create new business opportunities with it.",
         "website": "https://silo.ai/",
@@ -404,7 +410,7 @@
         "alt_link": "",
         "premium": false
     },
-    "3HEVtt6z5v": {
+    "rbJ3n7qIxk": {
         "name": "Aava",
         "location": [
             "Finland"
@@ -424,7 +430,7 @@
         "alt_link": "",
         "premium": false
     },
-    "pYEHLu4IkD": {
+    "5u0NhlTRuJ": {
         "name": "Wolt",
         "location": [
             "Germany",
@@ -449,6 +455,9 @@
             "Apache Kafka",
             "Celery",
             "Docker",
+            "Elasticsearch",
+            "FastAPI",
+            "Flask",
             "Jenkins",
             "Kotlin",
             "Kubernetes",
@@ -458,6 +467,8 @@
             "React Native",
             "Redis",
             "Scala",
+            "Scala",
+            "Terraform",
             "TypeScript"
         ],
         "flavor": "A Finnish growth rocket that offers restaurant food delivery services in more than 20 countries.",
@@ -466,7 +477,7 @@
         "alt_link": "",
         "premium": false
     },
-    "xKsVYSNGmS": {
+    "M81uJVi9iu": {
         "name": "Umbra",
         "location": [
             "Finland"
@@ -484,7 +495,7 @@
         "alt_link": "",
         "premium": false
     },
-    "RbT2M7JhMp": {
+    "pKpH9VdYqA": {
         "name": "Polar Squad",
         "location": [
             "Finland"
@@ -505,7 +516,7 @@
         "alt_link": "",
         "premium": false
     },
-    "m5yfQkZvva": {
+    "JvISTPKAnW": {
         "name": "Sharper Shape",
         "location": [
             "Finland"
@@ -529,7 +540,7 @@
         "alt_link": "",
         "premium": false
     },
-    "Gy2PPJK5wq": {
+    "ZpUaSb6cI2": {
         "name": "Nordea",
         "location": [
             "Finland"
@@ -555,7 +566,7 @@
         "alt_link": "",
         "premium": false
     },
-    "13UluG3d0B": {
+    "hK655CVPqC": {
         "name": "Nixu",
         "location": [
             "Finland"
@@ -582,7 +593,7 @@
         "alt_link": "",
         "premium": false
     },
-    "FXg5sooIm6": {
+    "Av2qTrJ7cD": {
         "name": "ICEYE",
         "location": [
             "Finland"
@@ -610,7 +621,7 @@
         "alt_link": "",
         "premium": false
     },
-    "eQaBxBiMgW": {
+    "RjqpjyuQAf": {
         "name": "Solita",
         "location": [
             "Finland"
@@ -618,8 +629,8 @@
         "stack": [
             ".NET",
             "Amazon Aws",
+            "C sharp",
             "Clojure",
-            "Csharp",
             "Episerver",
             "Java",
             "JavaScript",
@@ -632,7 +643,7 @@
         "alt_link": "",
         "premium": false
     },
-    "BYcpQqqkVU": {
+    "DsBvImgmhu": {
         "name": "Valamis",
         "location": [
             "Finland"
@@ -653,7 +664,7 @@
         "alt_link": "",
         "premium": false
     },
-    "qEzJUPrFG7": {
+    "sCexNmyPBC": {
         "name": "New Things Co",
         "location": [
             "Finland"
@@ -680,7 +691,7 @@
         "alt_link": "",
         "premium": false
     },
-    "ToNAfK2U0Q": {
+    "FE3DaTCqmq": {
         "name": "Starship",
         "location": [
             "Finland"
@@ -702,7 +713,7 @@
         "alt_link": "",
         "premium": false
     },
-    "VyZuO31xr5": {
+    "7VgADVYOKV": {
         "name": "Supermetrics",
         "location": [
             "Finland"
@@ -725,7 +736,7 @@
         "alt_link": "",
         "premium": false
     },
-    "hI9AQed5KO": {
+    "VYb6HbDeII": {
         "name": "F-Secure",
         "location": [
             "Finland"
@@ -733,12 +744,12 @@
         "stack": [
             "Amazon Aws",
             "Android",
+            "C sharp",
             "C++",
-            "Csharp",
             "Java",
             "JavaScript",
             "Linux",
-            "Objective",
+            "Objective--C",
             "Python",
             "iOS"
         ],
@@ -748,7 +759,7 @@
         "alt_link": "",
         "premium": false
     },
-    "XnJDBOI2VZ": {
+    "Rudz0OoqjM": {
         "name": "CHAOS",
         "location": [
             "Finland"
@@ -770,7 +781,7 @@
         "alt_link": "https://chaosarchitects.com/",
         "premium": true
     },
-    "1V84Xg3C2U": {
+    "VBo9YbGKNz": {
         "name": "Huutokaupat.com",
         "location": [
             "Finland"
@@ -789,7 +800,7 @@
         "alt_link": "",
         "premium": false
     },
-    "bwuciYomul": {
+    "CGCQxMHZmy": {
         "name": "Howspace",
         "location": [
             "Finland"
@@ -808,7 +819,7 @@
         "alt_link": "",
         "premium": false
     },
-    "SSh3ZQv4VB": {
+    "rQC8hdUnpa": {
         "name": "Solibri",
         "location": [
             "Finland"
@@ -829,7 +840,7 @@
         "alt_link": "",
         "premium": false
     },
-    "im4aRkSNxt": {
+    "6W0Jv6KAiL": {
         "name": "HiQ",
         "location": [
             "Finland"
@@ -853,14 +864,14 @@
         "alt_link": "",
         "premium": false
     },
-    "gARrO8gheg": {
+    "7WWRBvXSTX": {
         "name": "Mobile Pay",
         "location": [
             "Finland"
         ],
         "stack": [
             "Apache Cassandra",
-            "Csharp",
+            "C sharp",
             "MSSQL",
             "MongoDB",
             "MySQL",
@@ -872,7 +883,7 @@
         "alt_link": "",
         "premium": false
     },
-    "5qTOKCN1pJ": {
+    "oU5kYNguw3": {
         "name": "Unity",
         "location": [
             "Finland"
@@ -901,7 +912,7 @@
         "alt_link": "",
         "premium": false
     },
-    "C5KuQXzILU": {
+    "rhJYbD9PkZ": {
         "name": "Columbia Road",
         "location": [
             "Finland"
@@ -910,7 +921,7 @@
             ".NET",
             "Amazon Aws",
             "Angular",
-            "Csharp",
+            "C sharp",
             "Go",
             "J2EE",
             "Java",
@@ -932,14 +943,14 @@
         "alt_link": "",
         "premium": false
     },
-    "jGmcr7r5gW": {
+    "z83C2xuVkJ": {
         "name": "3D Bear",
         "location": [
             "Finland"
         ],
         "stack": [
             ".NET",
-            "Csharp",
+            "C sharp",
             "Microsoft Azure"
         ],
         "flavor": "Virtual learning environments and solutions that take advantage of augmented reality, virtual reality, 3D printing, and 360 imaging and scanning. 3D Bear creates meaningful products, but still has a laid-back work culture.",
@@ -948,7 +959,7 @@
         "alt_link": "",
         "premium": false
     },
-    "wGVJTapEIJ": {
+    "UGsDvklGsb": {
         "name": "Zalando",
         "location": [
             "Finland"
@@ -983,7 +994,7 @@
         "alt_link": "https://jobs.zalando.com/en/jobs/?gh_src=gk03hq",
         "premium": true
     },
-    "hURMsOw0pa": {
+    "lUz1C8SD5W": {
         "name": "Vincit",
         "location": [
             "Finland"
@@ -993,9 +1004,9 @@
             "Amazon Aws",
             "Angular",
             "C",
+            "C sharp",
             "C++",
             "Clojure",
-            "Csharp",
             "Java",
             "Kotlin",
             "Microsoft Azure",
@@ -1010,7 +1021,7 @@
         "alt_link": "",
         "premium": false
     },
-    "aMkj8nR8XX": {
+    "JP3gYkAndb": {
         "name": "Aiven",
         "location": [
             "Finland"
@@ -1035,7 +1046,7 @@
         "alt_link": "",
         "premium": false
     },
-    "68ULAtCCRe": {
+    "0O7p7PwbsC": {
         "name": "Nitor",
         "location": [
             "Finland"
@@ -1053,7 +1064,7 @@
             "Kotlin",
             "Microsoft Azure",
             "Node.js",
-            "Objective",
+            "Objective--C",
             "Python",
             "R",
             "React Native",
@@ -1066,7 +1077,7 @@
         "alt_link": "",
         "premium": false
     },
-    "5Rgk6P3VlH": {
+    "xnP1KARoDN": {
         "name": "Eficode",
         "location": [
             "Finland"
@@ -1090,7 +1101,7 @@
         "alt_link": "",
         "premium": false
     },
-    "amPi3tR0OE": {
+    "E2nn75wQzX": {
         "name": "Bitfactor",
         "location": [
             "Finland"
@@ -1111,7 +1122,7 @@
         "alt_link": "",
         "premium": false
     },
-    "4s2t4hSZop": {
+    "pExii6vqLb": {
         "name": "Oura",
         "location": [
             "Finland"
@@ -1140,7 +1151,7 @@
         "alt_link": "",
         "premium": false
     },
-    "dmuEnogj92": {
+    "thifFxhbTt": {
         "name": "Luoto",
         "location": [
             "Finland"
@@ -1149,7 +1160,7 @@
             "Amazon Aws",
             "Apache Kafka",
             "Apache Spark",
-            "Csharp",
+            "C sharp",
             "Flink",
             "Go",
             "Java",
@@ -1168,7 +1179,7 @@
         "alt_link": "",
         "premium": false
     },
-    "aWDjU0gDkk": {
+    "aUwfVVSiMj": {
         "name": "Gofore",
         "location": [
             "Finland"
@@ -1176,7 +1187,7 @@
         "stack": [
             "Amazon Aws",
             "Angular",
-            "Csharp",
+            "C sharp",
             "Docker",
             "Flutter",
             "Java",
@@ -1197,7 +1208,7 @@
         "alt_link": "",
         "premium": false
     },
-    "e7GZ2uu2ZD": {
+    "XaAM2dCTW9": {
         "name": "Supercell",
         "location": [
             "Finland"
@@ -1219,7 +1230,7 @@
         "alt_link": "",
         "premium": false
     },
-    "FbL0lQ88gj": {
+    "EXcBAMMLwu": {
         "name": "Fraktio",
         "location": [
             "Finland"
@@ -1239,7 +1250,7 @@
         "alt_link": "",
         "premium": false
     },
-    "JTOOsBl5hr": {
+    "2YVsTKoLRs": {
         "name": "Qvik",
         "location": [
             "Finland",
@@ -1264,7 +1275,7 @@
         "alt_link": "",
         "premium": false
     },
-    "yz5coLJQka": {
+    "6buyWYYvCV": {
         "name": "Smartly",
         "location": [
             "Finland"
@@ -1289,7 +1300,7 @@
         "alt_link": "",
         "premium": false
     },
-    "AaVJ46yhQ8": {
+    "AMSP2Zvxw1": {
         "name": "Vaisala",
         "location": [
             "Finland"
@@ -1297,8 +1308,8 @@
         "stack": [
             ".NET",
             "C",
+            "C sharp",
             "C++",
-            "Csharp",
             "Java",
             "React"
         ],
@@ -1308,7 +1319,7 @@
         "alt_link": "",
         "premium": false
     },
-    "NOImxVf8xW": {
+    "hBl1uFhgmc": {
         "name": "Nokia",
         "location": [
             "Finland"
@@ -1341,7 +1352,7 @@
         "alt_link": "",
         "premium": false
     },
-    "y3AqJw6L01": {
+    "9HEiRIp9AI": {
         "name": "Futurice",
         "location": [
             "Finland"
@@ -1349,7 +1360,7 @@
         "stack": [
             ".NET",
             "Amazon Aws",
-            "Csharp",
+            "C sharp",
             "GCP",
             "Java",
             "JavaScript",
@@ -1368,7 +1379,7 @@
         "alt_link": "",
         "premium": false
     },
-    "nSqVH1G5Sl": {
+    "3DkxAUz1wo": {
         "name": "Mobal",
         "location": [
             "Finland"
@@ -1381,6 +1392,7 @@
             "Flask",
             "Node.js",
             "PostgreSQL",
+            "Python",
             "Redis",
             "Ruby",
             "Ruby on rails",
@@ -1394,7 +1406,7 @@
         "alt_link": "",
         "premium": false
     },
-    "eoOmfASxUQ": {
+    "mzUQtV10Rs": {
         "name": "Pandatron",
         "location": [
             "Finland"
@@ -1416,7 +1428,7 @@
         "alt_link": "",
         "premium": false
     },
-    "5o4bMPf9WW": {
+    "gM5DRdaXoJ": {
         "name": "Scandit",
         "location": [
             "Finland"
@@ -1449,13 +1461,13 @@
         "alt_link": "",
         "premium": false
     },
-    "yG3ZcRMLvh": {
+    "WTWo9wUdVY": {
         "name": "Yousician",
         "location": [
             "Finland"
         ],
         "stack": [
-            "Csharp",
+            "C sharp",
             "Docker",
             "Flask",
             "Java",
@@ -1473,7 +1485,7 @@
         "alt_link": "",
         "premium": false
     },
-    "lhbhbbK73O": {
+    "yy11vUg2Qf": {
         "name": "Workfellow",
         "location": [
             "Finland"
@@ -1497,7 +1509,7 @@
         "alt_link": "",
         "premium": false
     },
-    "nYxtxJl0ot": {
+    "dQHUVWc0kT": {
         "name": "Digisailx",
         "location": [
             "Finland"
@@ -1515,7 +1527,7 @@
         "alt_link": "",
         "premium": false
     },
-    "Jc164GpXE8": {
+    "8OuYpj9pHh": {
         "name": "Posti",
         "location": [
             "Finland"
@@ -1536,7 +1548,7 @@
         "alt_link": "",
         "premium": false
     },
-    "e3Pe76D5ON": {
+    "Xc48GTxnBJ": {
         "name": "Finnair",
         "location": [
             "Finland"
@@ -1567,7 +1579,7 @@
         "alt_link": "",
         "premium": false
     },
-    "1OrWTzqWdn": {
+    "bQgiXkQmuS": {
         "name": "Nordcloud",
         "location": [
             "Finland",
@@ -1608,7 +1620,7 @@
         "alt_link": "",
         "premium": false
     },
-    "9CkMnzONTm": {
+    "FvHLprlyPG": {
         "name": "Oda",
         "location": [
             "Norway",
@@ -1638,7 +1650,7 @@
         "alt_link": "",
         "premium": false
     },
-    "y2aIsPLVLm": {
+    "AcNoKW6d81": {
         "name": "Vertics",
         "location": [
             "Finland"
@@ -1659,7 +1671,7 @@
         "alt_link": "",
         "premium": false
     },
-    "1it6ATZoJt": {
+    "WUeGmYFsCa": {
         "name": "Videoly",
         "location": [
             "Finland"
@@ -1676,7 +1688,7 @@
         "alt_link": "",
         "premium": false
     },
-    "FvVEcOOF4Q": {
+    "nykX61ONOn": {
         "name": "Huld",
         "location": [
             "Finland"
@@ -1701,7 +1713,7 @@
         "alt_link": "",
         "premium": false
     },
-    "w8XPw9DcoZ": {
+    "tguTLdQ2yM": {
         "name": "Mapbox",
         "location": [
             "Finland"
@@ -1715,7 +1727,7 @@
             "JavaScript",
             "Kotlin",
             "Metal",
-            "Objective",
+            "Objective--C",
             "OpenGL",
             "Python",
             "React Native",
@@ -1730,7 +1742,7 @@
         "alt_link": "",
         "premium": false
     },
-    "xF0HSHncAF": {
+    "buQFWJv6A6": {
         "name": "Synopsys",
         "location": [
             "Finland"
@@ -1756,7 +1768,7 @@
         "alt_link": "",
         "premium": false
     },
-    "C1Ks9pbjj1": {
+    "A1wCzhKCJ8": {
         "name": "Swarmia",
         "location": [
             "Finland"
@@ -1782,7 +1794,7 @@
         "alt_link": "",
         "premium": false
     },
-    "ihXxPDf9lD": {
+    "Yr8AJ48lih": {
         "name": "Nvidia",
         "location": [
             "Finland"
@@ -1800,7 +1812,7 @@
             "Maya",
             "Python",
             "Starlark",
-            "Unreal"
+            "Unreal Engine"
         ],
         "flavor": "Nvidia is an American multinational technology company. Nvidia GPU's, API's and high-performance computing. ",
         "website": "https://www.nvidia.com/en-us/",
@@ -1808,7 +1820,7 @@
         "alt_link": "",
         "premium": false
     },
-    "6iO0Mxmzon": {
+    "M5QgOaCqME": {
         "name": "CubiCasa",
         "location": [
             "Finland"
@@ -1833,16 +1845,16 @@
         "alt_link": "",
         "premium": false
     },
-    "BQTUgmZesP": {
+    "6vzdsOEiI9": {
         "name": "Electronic Arts",
         "location": [
             "Finland"
         ],
         "stack": [
             "ActionScript",
+            "C sharp",
             "C++",
             "CSS3",
-            "Csharp",
             "Docker",
             "Go",
             "HTML5",
@@ -1860,5 +1872,42 @@
         "tags": [],
         "alt_link": "",
         "premium": false
+    },
+    "6EWvdCitP3": {
+        "name": "Spotify",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Android",
+            "BigQuery",
+            "C++",
+            "CSS3",
+            "Docker",
+            "Google Cloud",
+            "Grafana",
+            "HTML5",
+            "Java",
+            "Javascript",
+            "Kotlin",
+            "Kubernetes",
+            "Objective--C",
+            "PagerDuty",
+            "Python",
+            "React",
+            "SQL",
+            "Scala",
+            "Swift",
+            "Typescript",
+            "iOS"
+        ],
+        "flavor": "Spotify is a proprietary Swedish audio streaming and media services provider.",
+        "website": "https://www.lifeatspotify.com/",
+        "tags": [
+            "Premium",
+            "Hiring"
+        ],
+        "alt_link": "https://www.lifeatspotify.com/jobs",
+        "premium": true
     }
 }

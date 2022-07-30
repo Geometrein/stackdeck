@@ -1,16 +1,30 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Query
 from fastapi.templating import Jinja2Templates
+
 from schemas.schemas import Card
 from methods.util import (
+    generate_random_key
+)
+from methods.networks import (
+    generate_weighted_network_dict,
+    generate_unweighted_network_dict
+)
+
+from methods.search import (
     get_random_card,
-    check_query_results,
-    get_deck_statistics,
     search_by_company_name,
-    search_multiple_frameworks,
+    search_multiple_frameworks
+)
+
+from methods.stats import (
+    get_deck_statistics,
+    get_most_used_frameworks
+)
+
+from methods.comparison import (
     stack_similarity,
     stack_difference,
-    stack_symmetric_difference,
-    get_most_used_frameworks
+    stack_symmetric_difference
 )
 
 endpoints = APIRouter()
@@ -23,7 +37,7 @@ async def get_deck_stats() -> dict:
     return result
 
 
-@endpoints.get("/cards/", status_code=200, response_model=Card)
+@endpoints.get("/cards/", status_code=200)
 async def get_card_by_name(name: str = 'CHAOS') -> Card:
     """
     Returns a card by name.
@@ -32,7 +46,7 @@ async def get_card_by_name(name: str = 'CHAOS') -> Card:
     return search_results
 
 
-@endpoints.get("/cards/random", status_code=200, response_model=Card)
+@endpoints.get("/cards/random", status_code=200)
 async def get_random_item() -> Card:
     """
     Returns a random card from the deck.
@@ -46,10 +60,8 @@ async def get_card_similarity(first_company_name: str = 'chaos', second_company_
     """
     """
     common_frameworks = stack_similarity(first_company_name, second_company_name)
-    if check_query_results(common_frameworks):
-        return common_frameworks
-    else:
-        return {}
+    return common_frameworks
+
 
 
 @endpoints.get("/cards/difference/", status_code=200)
@@ -66,23 +78,16 @@ async def get_card_difference(
         card_difference = stack_symmetric_difference(first_company_name, second_company_name)
     else:
         card_difference = stack_difference(first_company_name, second_company_name)
-
-    if check_query_results(card_difference):
-        return card_difference
-    else:
-        return {}
+    return card_difference
 
 
-@endpoints.post("/frameworks/", status_code=200)
-async def get_cards_by_frameworks(frameworks: list[str]) -> dict:
+@endpoints.get("/frameworks/", status_code=200)
+async def get_cards_by_frameworks(frameworks: list[str] | None = Query(default=None)) -> dict:
     """
     Returns cards that share the list of provided frameworks.
     """
     search_results = search_multiple_frameworks(frameworks)
-    if check_query_results(search_results):
-        return search_results
-    else:
-        return {}
+    return search_results
 
 
 @endpoints.get("/frameworks/frequency", status_code=200)
@@ -91,7 +96,34 @@ async def get_frameworks_by_use_frequency(length: int = 10) -> dict:
     Returns cards that share the list of provided frameworks.
     """
     search_results = get_most_used_frameworks(n=length)
-    if check_query_results(search_results):
-        return search_results
-    else:
-        return {}
+    return search_results
+
+
+@endpoints.get("/networks/weighted", status_code=200)
+async def get_weighted_network_edges(weight_tolerance: int = 8) -> dict:
+    """
+    Returns dictionary of dictionaries necessary for generating
+    weighted edges in networkx.form_dict_of_dicts() method.
+    """
+    network_edge_dict = generate_weighted_network_dict(weight_tolerance=weight_tolerance)
+    return network_edge_dict
+
+
+@endpoints.get("/networks/unweighted", status_code=200)
+async def get_unweighted_network_edges(connectivity_tolerance: int = 8) -> dict:
+    """
+    Returns dictionary of dictionaries necessary for generating
+    unweighted edges in networkx.form_dict_of_dicts() method.
+    """
+    network_edge_dict = generate_unweighted_network_dict(connectivity_tolerance)
+    return network_edge_dict
+
+
+@endpoints.get("/util/id-generator/", status_code=200)
+async def generate_card_id(name: str) -> dict:
+    """
+    Generates an id for a card.
+    Used when adding new entries to the dataset.
+    """
+    card_id = generate_random_key(name.lower())
+    return {"card_id": card_id}
