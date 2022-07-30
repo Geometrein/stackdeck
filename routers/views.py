@@ -2,12 +2,9 @@ from fastapi import APIRouter, Request
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 
-from methods.util import (
-    check_query_results,
-    search_single_framework,
-    get_most_used_frameworks
-)
-
+from methods.util import check_query_results
+from methods.search import search_single_framework
+from methods.stats import get_most_used_frameworks
 
 views = APIRouter()
 templates = Jinja2Templates(directory="templates")
@@ -62,9 +59,11 @@ async def deck_dashboard(request: Request) -> Jinja2Templates.TemplateResponse:
     labels = list(most_used_dict.keys())
     values = list(most_used_dict.values())
     percentage = [round((value/sum(values)) * 100, 1) for value in values]
-    return templates.TemplateResponse("dashboard.html", {
-        "request": request,
-        "labels": labels,
-        "values": values,
-        "percentage": percentage
-    })
+    return templates.TemplateResponse(
+        "dashboard.html", {
+            "request": request,
+            "labels": labels,
+            "values": values,
+            "percentage": percentage
+        }
+    )

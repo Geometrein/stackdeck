@@ -21,3 +21,11 @@ def test_get_card_by_name():
     assert 'flavor' in response.json()
     assert 'stack' in response.json()
     assert 'website' in response.json()
+
+
+def test_id_generator():
+    card_id = "5u0NhlTRuJ"
+    response = client.get("/util/id-generator/?name=wolt")
+    json_response = response.json()
+    assert response.status_code == 200
+    assert json_response['card_id'] == card_id
