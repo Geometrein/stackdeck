@@ -87,4 +87,4 @@ You're all set 🚀
    1) Ideally, include a source so that the added information can be verified.<br>For example, you could link to your linkedin that shows you have worked in the company that you added/modified.
 
 
-[![PR](https://img.shields.io/badge/Sample_Pull_Request-0088CC?style=for-the-badge&logo=github&logoColor=white)]https://github.com/Geometrein/stackdeck/pull/2)
+[![PR](https://img.shields.io/badge/Sample_Pull_Request-0088CC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Geometrein/stackdeck/pull/2)
