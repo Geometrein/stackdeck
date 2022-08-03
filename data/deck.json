@@ -1758,7 +1758,7 @@
             "MongoDB",
             "NoSQL",
             "Python",
-            "Rabbit",
+            "RabbitMQ",
             "React",
             "SQL"
         ],
@@ -1909,5 +1909,147 @@
         ],
         "alt_link": "https://www.lifeatspotify.com/jobs",
         "premium": true
+    },
+    "BUSnfeXIFK": {
+        "name": "Nordnet",
+        "location": [
+            "Finland",
+            "Sweden",
+            "Oslo",
+            "Copenhagen"
+        ],
+        "stack": [
+            "Android",
+            "CSS3",
+            "Docker",
+            "Google Cloud",
+            "HTML5",
+            "Java",
+            "JavaScript",
+            "Kubernetes",
+            "MSSQL",
+            "Maven",
+            "Nginx",
+            "Node.js",
+            "React",
+            "React Native",
+            "SQL",
+            "Spring Boot",
+            "TypeScript",
+            "iOS",
+            "jUnit"
+        ],
+        "flavor": "Nordnet is a pan-Nordic financial services company, headquartered in Stockholm, Sweden.",
+        "website": "https://nordnetab.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "HPJYbfRyrT": {
+        "name": "Noice",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Android",
+            "Flutter",
+            "Go",
+            "Grafana",
+            "Helm",
+            "Kubernetes",
+            "Prometheus",
+            "React",
+            "Terraform",
+            "TypeScript",
+            "iOS"
+        ],
+        "flavor": "Noice is a startup working on a Social Multiplayer game platform for gamers.",
+        "website": "https://noice.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "ehgaAo3SXm": {
+        "name": "Qualcomm",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Amazon Aws",
+            "C",
+            "C++",
+            "DynamoDB",
+            "Java",
+            "Linux",
+            "MATLAB",
+            "MongoDB",
+            "NoSQL",
+            "Node.js",
+            "Python",
+            "TypeScript"
+        ],
+        "flavor": "Qualcomm is an American multinational corporation. It creates semiconductors, software, and services related to wireless technology.",
+        "website": "https://www.qualcomm.com/home",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "bYnCwOOouf": {
+        "name": "Hansen Technologies",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            ".NET",
+            "Amazon Aws",
+            "Angular",
+            "C sharp",
+            "C++",
+            "JavaScript",
+            "Jenkins",
+            "Linux",
+            "Microsoft Azure",
+            "Oracle",
+            "Robot Framework",
+            "Splunk",
+            "TypeScript"
+        ],
+        "flavor": "Hansen Technologies is a global provider of customer care, billing software and data management systems.",
+        "website": "https://www.hansencx.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "51pYIUMXbg": {
+        "name": "Canonical",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "Bash",
+            "C",
+            "C++",
+            "Docker",
+            "Go",
+            "JavaScript",
+            "Juju",
+            "Kubernetes",
+            "Linux",
+            "Mesa",
+            "NoSQL",
+            "Node.js",
+            "OpenGL",
+            "PostgreSQL",
+            "Python",
+            "React",
+            "Shell",
+            "Ubuntu",
+            "Vulkan"
+        ],
+        "flavor": "Canonical is a UK-based computer software company that develops Ubuntu related services.",
+        "website": "https://canonical.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
     }
 }

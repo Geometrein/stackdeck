@@ -23,6 +23,13 @@ def generate_random_key(name: str, length: int = 10) -> str:
     return string_key
 
 
+def switcheroo(deck: dict) -> dict:
+    deck_list = list(deck.items())
+    random.shuffle(deck_list)
+    new_deck = dict(deck_list)
+    return new_deck
+
+
 def check_query_results(result: dict) -> bool:
     if len(result) > 0 and result.keys():
         return True

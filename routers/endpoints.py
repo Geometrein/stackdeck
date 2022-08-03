@@ -63,7 +63,6 @@ async def get_card_similarity(first_company_name: str = 'chaos', second_company_
     return common_frameworks
 
 
-
 @endpoints.get("/cards/difference/", status_code=200)
 async def get_card_difference(
         first_company_name: str = 'chaos', second_company_name: str = 'holvi', symmetric: bool = False
