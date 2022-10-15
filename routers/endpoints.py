@@ -81,7 +81,7 @@ async def get_card_difference(
 
 
 @endpoints.get("/frameworks/", status_code=200)
-async def get_cards_by_frameworks(frameworks: list[str] | None = Query(default=None)) -> dict:
+async def get_cards_by_frameworks(frameworks=Query(default=None)) -> dict:
     """
     Returns cards that share the list of provided frameworks.
     """
