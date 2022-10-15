@@ -1267,7 +1267,9 @@
             "Kotlin",
             "React",
             "Vue.js",
-            "iOS"
+            "iOS",
+            "GCP",
+            "Go"
         ],
         "flavor": "A mobile consulting company for the software industry.",
         "website": "https://qvik.com/",
@@ -2048,6 +2050,24 @@
         ],
         "flavor": "Canonical is a UK-based computer software company that develops Ubuntu related services.",
         "website": "https://canonical.com/",
+        "tags": [],
+        "alt_link": "",
+        "premium": false
+    },
+    "Y7qKTWhUib": {
+        "name": "Metacore",
+        "location": [
+            "Finland"
+        ],
+        "stack": [
+            "C sharp",
+            "NoSQL",
+            "Docker",
+            ".NET",
+            "Amazon Aws"
+        ],
+        "flavor": "Metacore is formed by small game teams, each deciding which games to build, when to ship them, and when to pivot or kill them.",
+        "website": "https://metacoregames.com/",
         "tags": [],
         "alt_link": "",
         "premium": false
