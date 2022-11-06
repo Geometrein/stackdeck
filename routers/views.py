@@ -5,6 +5,7 @@ from fastapi.responses import HTMLResponse
 from methods.util import check_query_results
 from methods.search import search_single_framework
 from methods.stats import get_most_used_frameworks
+from methods.salaries import get_salaries_dict
 
 views = APIRouter()
 templates = Jinja2Templates(directory="templates")
@@ -65,5 +66,19 @@ async def deck_dashboard(request: Request) -> Jinja2Templates.TemplateResponse:
             "labels": labels,
             "values": values,
             "percentage": percentage
+        }
+    )
+
+
+@views.get("/deck/salaries", response_class=HTMLResponse, include_in_schema=False, status_code=200)
+async def deck_dashboard(request: Request) -> Jinja2Templates.TemplateResponse:
+    """
+    Deck Salaries
+    """
+    items = get_salaries_dict()
+    return templates.TemplateResponse(
+        "salaries.html", {
+            "request": request,
+            "items": items,
         }
     )

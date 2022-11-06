@@ -1891,7 +1891,7 @@ progress {
   --bs-table-active-color: #fff;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
   --bs-table-hover-color: #fff;
-  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+  --bs-table-hover-bg: rgba(255, 255, 255, 0.075);
   width: 100%;
   margin-bottom: 1rem;
   color: #fff;
@@ -11516,4 +11516,8 @@ fieldset:disabled .btn {
   border-width: 2px;
   border-image: linear-gradient(to right, #f46b45 0%, #eea849  51%, #f46b45  100%) 1;
   transition: transform .2s;
+}
+
+.noHover{
+    pointer-events: none;
 }

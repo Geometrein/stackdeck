@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>StackDeck</title>
+        <meta name="description"
+              content="StackDeck is a blazing fast api "/>
+        <meta property="og:title" content="StackDeck Blazing fast api for searching tech stacks.">
+        <meta property="og:description" content="Browse trougth the stacks of diferent companies compare and analyze tech popularity.">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://stackdeck.dev">
+        <meta property="og:image" content="https://stackdeck.dev/static/images/og_image.png"/>
+        <link href="/static/bootstrap.css" rel="stylesheet" type="text/css">
+        <link id="favicon" rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <!--navigation-->
+        {% include 'navbar.html' %}
+        {% block content %}
+        {% endblock %}
+
+        <!--Content-->
+        <section class="" id="sals">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto my-auto text-center">
+                        <h3>Salaries</h3>
+                        <h6 class="text-muted">Monthly salaries in Finnish IT companies</h6>
+                        <br>
+                        <table class="table table-hover">
+                            <TR class="table-active">
+                               <TH scope="col" class="text">Sector</TH>
+                               <TH scope="col" class="text">Number of People</TH>
+                               <TH scope="col" class="text">Average</TH>
+                                <TH scope="col" class="text">Median</TH>
+                               <TH scope="col" class="text">Bottom 10%</TH>
+                               <TH scope="col" class="text">Top 10%</TH>
+                            </TR>
+                            {% for item in items %}
+                            <TR class="table-active">
+                               <TD scope="row" class="text">{{item.label}}</TD>
+                               <TD scope="row" class="text" style="color:#989898;">{{item.number}}</TD>
+                               <TD scope="row" class="text" style="color:#2c79c5;">{{item.average}} €</TD>
+                               <TD scope="row" class="text" style="color:#2c79c5;">{{item.median}} €</TD>
+                               <TD scope="row" class="text" style="color:#c24c4c;">{{item.decile_1}} €</TD>
+                               <TD scope="row" class="text" style="color:#05882d;">{{item.decile_9}} €</TD>
+                            </TR>
+                            {% endfor %}
+                        </table>
+                        <p class="text-muted">Source: Tilastokeskus (Statistics Finland)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--footer-->
+        {% include 'footer.html' %}
+        {% block footer %}
+        {% endblock %}
+
+    </body>
+</html>
